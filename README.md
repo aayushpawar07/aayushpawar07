@@ -234,7 +234,7 @@
 
 <div align="center">
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/aayushparadkar99?theme=radical&font=Fira+Code&ext=activity)](https://leetcode.com/u/aayushparadkar99/)
+[![LeetCode Stats](https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/leetcode/stats.svg)](https://leetcode.com/u/aayushparadkar99/)
 
 </div>
 
