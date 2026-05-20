@@ -1,76 +1,92 @@
-<!-- Header Capsule Render Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:6C63FF,100:FF6B6B&height=300&section=header&text=Aayush%20Paradkar&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20Cloud&descAlignY=58&descSize=20&descColor=A78BFA" />
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=☕+Java+%26+Spring+Boot+Developer;🚀+Building+Scalable+Microservices;☁️+Cloud-Native+%7C+AWS+EC2+%7C+Docker;🔐+Security+%7C+JWT+%7C+Spring+Security;💡+20+Followers+%7C+92%2B+Contributions)](https://git.io/typing-svg)
+<!-- ═══════════════════════ HEADER ═══════════════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:6C63FF,100:FF6B6B&height=280&section=header&text=Aayush%20Paradkar&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=☕%20Java%20Developer%20%7C%20🚀%20Spring%20Boot%20%7C%20☁️%20Microservices%20%7C%20🔐%20Cloud%20Native&descAlignY=60&descSize=18&descColor=c4b5fd" />
 
 <br/>
 
-<a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/🌐 Portfolio-6C63FF?style=for-the-badge&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/aayush-paradkar" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://leetcode.com/u/aayushparadkar99/" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-</a>
-<a href="mailto:ayushparadkar4@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/aayushpawar07" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<!-- ═══════════════════════ TYPING + BADGES ═══════════════════════ -->
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2500&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=650&lines=☕+Java+%26+Spring+Boot+Developer;🔐+JWT+%7C+Spring+Security+%7C+2FA+Expert;☁️+AWS+EC2+%7C+Docker+%7C+Nginx+%7C+Linux;🏗️+Microservices+%7C+REST+APIs+%7C+JPA;💡+Open+for+Collabs+%26+Opportunities!)](https://git.io/typing-svg)
+
+<br/>
+
+<a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/"><img src="https://img.shields.io/badge/🌐 Portfolio-6C63FF?style=for-the-badge" /></a>
+<a href="https://www.linkedin.com/in/aayush-paradkar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://leetcode.com/u/aayushparadkar99/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+<a href="mailto:ayushparadkar4@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 <br/><br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aayushpawar07&label=👁️+Profile+Views&color=6C63FF&style=for-the-badge)
 ![GitHub Followers](https://img.shields.io/github/followers/aayushpawar07?label=👥+Followers&style=for-the-badge&color=6C63FF)
+![GitHub Stars](https://img.shields.io/github/stars/aayushpawar07?label=⭐+Total+Stars&style=for-the-badge&color=FF6B6B)
 
 </div>
 
+<br/>
+
 ---
 
-## 🧬 About Me
+<!-- ═══════════════════════ ABOUT ME ═══════════════════════ -->
 
-<img align="right" alt="Coding GIF" width="380" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXlkMm12OTNkamloaXc4dml6Y2Q4aHZxazR6amN3bHp2bXFzMzBxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&section=header" width="100%"/>
 
-```java
-/**
- * @author  Aayush Paradkar
- * @version 2026-latest
- * @desc    Passionate Java Backend Developer
- */
-public class AayushParadkar extends Developer {
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/> &nbsp;About Me
 
-  private final String name     = "Aayush Paradkar";
-  private final String location = "📍 Bhopal, India";
-  private final String company  = "💼 Java Dev @ Cloud Nexus";
-  private final String degree   = "🎓 B.Tech CSE";
+<table>
+<tr>
+<td width="55%" valign="top">
 
-  private String[] currentWork = {
-    "⚡ Microservices with Spring Boot",
-    "☁️  Cloud-Native Apps on AWS",
-    "🔐 Secure APIs with JWT + 2FA"
-  };
+### 👨‍💻 Who Am I?
 
-  private String[] learning = {
-    "📐 System Design & Architecture",
-    "🐳 Kubernetes & Container Orchestration",
-    "🔴 Redis Caching & Kafka Streaming"
-  };
+> 🔥 Passionate **Java Backend Developer** building production-grade apps at **Cloud Nexus**. I love crafting **clean APIs**, designing **secure auth flows**, and shipping apps to the **cloud**.
 
-  @Override
-  public String getGoal() {
-    return "🚀 Build systems that scale to millions!";
-  }
-}
+<br/>
+
+| 🏷️ | Details |
+|---|---|
+| 📍 **Location** | Bhopal, Madhya Pradesh, India |
+| 🎓 **Education** | B.Tech in Computer Science |
+| 💼 **Current Role** | Java Developer @ Cloud Nexus |
+| 🌱 **Learning** | System Design · Kubernetes · Kafka |
+| 💬 **Ask me about** | Spring Boot · REST APIs · AWS |
+| 📫 **Email** | ayushparadkar4@gmail.com |
+| ⚡ **Fun fact** | I debug prod at 2AM & love it 😄 |
+
+<br/>
+
+**🎯 Current Focus:**
+
+```
+⚡ Microservices with Spring Boot
+☁️  Cloud-Native Apps on AWS EC2
+🔐 Secure APIs — JWT + Spring Security
+📐 System Design & Architecture
 ```
 
-<br clear="right"/>
+</td>
+<td width="45%" align="center" valign="top">
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXlkMm12OTNkamloaXc4dml6Y2Q4aHZxazR6amN3bHp2bXFzMzBxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="320" alt="Coding GIF"/>
+
+<br/><br/>
+
+<!-- Quick stat pills -->
+![Java](https://img.shields.io/badge/Java-Primary_Lang-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+
+![Experience](https://img.shields.io/badge/Experience-2%2B_Years-6C63FF?style=flat-square)
+
+![Projects](https://img.shields.io/badge/Projects-10%2B_Built-FF6B6B?style=flat-square)
+
+![Status](https://img.shields.io/badge/Status-Open_to_Work_✅-22c55e?style=flat-square)
+
+</td>
+</tr>
+</table>
 
 ---
+
+<!-- ═══════════════════════ TROPHIES ═══════════════════════ -->
 
 ## 🏆 GitHub Trophies
 
@@ -82,118 +98,109 @@ public class AayushParadkar extends Developer {
 
 ---
 
+<!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
+
 ## 🛠️ Tech Arsenal
 
 <div align="center">
 
-### ☕ Core — Backend & Languages
-<img src="https://skillicons.dev/icons?i=java,spring,python,js,ts,cpp&perline=6" />
-
-### 🌐 Frontend
-<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,vite,figma&perline=6" />
-
-### 🗄️ Databases
-<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,hibernate&perline=6" />
-
-### ☁️ DevOps, Cloud & Tools
-<img src="https://skillicons.dev/icons?i=docker,aws,git,github,linux,postman,nginx,vscode,idea&perline=9" />
+<table>
+<tr>
+  <td align="center" width="50%">
+    <h4>☕ Backend & Languages</h4>
+    <img src="https://skillicons.dev/icons?i=java,spring,python,js,ts,cpp&perline=6" />
+  </td>
+  <td align="center" width="50%">
+    <h4>🌐 Frontend</h4>
+    <img src="https://skillicons.dev/icons?i=react,html,css,tailwind,vite,figma&perline=6" />
+  </td>
+</tr>
+<tr>
+  <td align="center">
+    <h4>🗄️ Databases</h4>
+    <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,redis&perline=6" />
+  </td>
+  <td align="center">
+    <h4>☁️ DevOps & Cloud</h4>
+    <img src="https://skillicons.dev/icons?i=docker,aws,git,github,linux,nginx&perline=6" />
+  </td>
+</tr>
+<tr>
+  <td colspan="2" align="center">
+    <h4>🔧 Tools & IDEs</h4>
+    <img src="https://skillicons.dev/icons?i=postman,vscode,idea,maven&perline=8" />
+  </td>
+</tr>
+</table>
 
 </div>
 
 ---
 
+<!-- ═══════════════════════ EXPERIENCE ═══════════════════════ -->
+
 ## 💼 Experience
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💻 Cloud Nexus</h3>
-      <strong>Java Developer</strong> | Current<br/><br/>
-      ✅ Building scalable microservices with Spring Boot<br/>
-      ✅ Designing REST APIs with Spring Security & JWT<br/>
-      ✅ Deploying apps on AWS EC2 with Docker & Nginx<br/>
-      ✅ Database optimization with MySQL & JPA/Hibernate
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚀 Open Source & Projects</h3>
-      <strong>Full-Stack Developer</strong> | Ongoing<br/><br/>
-      ✅ AssessHub — Full-stack MCQ platform on AWS<br/>
-      ✅ Hotel Booking App — Spring Boot + React<br/>
-      ✅ Job Recommendation Portal — Role-based system<br/>
-      ✅ Food Delivery Website — MERN + Real-time tracking
-    </td>
-  </tr>
+<div align="center">
+<table width="90%">
+<tr>
+  <td width="50%" valign="top">
+
+  <h3 align="center">💻 Cloud Nexus</h3>
+  <p align="center"><strong>Java Developer</strong> · Current 🟢</p>
+
+  - ✅ Microservices with **Spring Boot**
+  - ✅ **Spring Security** · JWT · Role-Based Auth
+  - ✅ **AWS EC2** deployment with Docker & Nginx
+  - ✅ MySQL + **JPA/Hibernate** optimization
+  - ✅ REST API design & integration testing
+
+  </td>
+  <td width="50%" valign="top">
+
+  <h3 align="center">🚀 Open Source & Projects</h3>
+  <p align="center"><strong>Full-Stack Developer</strong> · Ongoing 🟣</p>
+
+  - ✅ **AssessHub** — MCQ platform on AWS EC2
+  - ✅ **Hotel Booking** — Spring Boot + React
+  - ✅ **Job Portal** — Role-based student app
+  - ✅ **Food Delivery** — MERN + real-time tracking
+  - ✅ **Java CRUD** — Spring Boot + React basics
+
+  </td>
+</tr>
 </table>
+</div>
 
 ---
+
+<!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
 
 ## 🚀 Featured Projects
 
 <div align="center">
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎯 AssessHub</h3>
-      <a href="https://github.com/aayushpawar07/CodePlannet">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=CodePlannet&theme=radical&hide_border=true&bg_color=0D1117" />
-      </a>
-      <br/>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Docker-2CA5E0?style=flat&logo=docker&logoColor=white"/>
-      <img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white"/>
-      <br/><br/>
-      Role-based MCQ testing platform with JWT + 2FA, deployed on AWS EC2 with Docker & Nginx.
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏨 Hotel Booking App</h3>
-      <a href="https://github.com/aayushpawar07/HotelBookingApplication">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=HotelBookingApplication&theme=radical&hide_border=true&bg_color=0D1117" />
-      </a>
-      <br/>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
-      <br/><br/>
-      Full-stack hotel booking system with room management, RBAC, and real-time availability.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💼 Job Recommendation Portal</h3>
-      <a href="https://github.com/aayushpawar07/JobRecommendationPortal">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=JobRecommendationPortal&theme=radical&hide_border=true&bg_color=0D1117" />
-      </a>
-      <br/>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-      <br/><br/>
-      Smart job portal where students find & apply to jobs with role-based signup and tracking.
-    </td>
-    <td width="50%" valign="top">
-      <h3>🍕 Food Delivery Website</h3>
-      <a href="https://github.com/aayushpawar07/Food-Delivery-Website">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=Food-Delivery-Website&theme=radical&hide_border=true&bg_color=0D1117" />
-      </a>
-      <br/>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/>
-      <br/><br/>
-      End-to-end food delivery platform with real-time tracking and secure payment integration.
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/aayushpawar07/CodePlannet">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=CodePlannet&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+</a>
+<a href="https://github.com/aayushpawar07/HotelBookingApplication">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=HotelBookingApplication&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/aayushpawar07/JobRecommendationPortal">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=JobRecommendationPortal&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+</a>
+<a href="https://github.com/aayushpawar07/Food-Delivery-Website">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=Food-Delivery-Website&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+</a>
 
 </div>
 
 ---
+
+<!-- ═══════════════════════ GITHUB STATS ═══════════════════════ -->
 
 ## 📊 GitHub Stats
 
@@ -212,7 +219,9 @@ public class AayushParadkar extends Developer {
 
 ---
 
-## 📈 Contribution Graph
+<!-- ═══════════════════════ ACTIVITY GRAPH ═══════════════════════ -->
+
+## 📈 Contribution Activity
 
 <div align="center">
 
@@ -222,41 +231,81 @@ public class AayushParadkar extends Developer {
 
 ---
 
-## 🐍 Contribution Snake
+<!-- ═══════════════════════ SNAKE ═══════════════════════ -->
+
+## 🐍 Watch the Snake Eat My Contributions!
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="🐍 Snake eating my contributions" src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
 
 ---
 
-## 🎯 Currently
+<!-- ═══════════════════════ DEV QUOTE ═══════════════════════ -->
 
-```
-🔭  Working on    →  Scalable Microservices @ Cloud Nexus
-🌱  Learning      →  System Design | Kubernetes | Redis | Kafka
-👯  Looking for   →  Java Backend | Full-Stack Collabs | Open Source
-💬  Ask me about  →  Spring Boot · REST APIs · Docker · AWS EC2 · MySQL
-📫  Reach me at   →  ayushparadkar4@gmail.com
-⚡  Fun fact      →  I debug production at 2AM and still love it 😄
-```
+## 💬 Dev Quote of the Day
+
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
 
 ---
 
-## 🤝 Open for Opportunities
+<!-- ═══════════════════════ CURRENTLY ═══════════════════════ -->
+
+## 🎯 Right Now
+
+<div align="center">
+
+<table width="80%">
+<tr>
+  <td>🔭 <strong>Working on</strong></td>
+  <td>Scalable Microservices @ Cloud Nexus</td>
+</tr>
+<tr>
+  <td>🌱 <strong>Learning</strong></td>
+  <td>System Design · Kubernetes · Redis · Kafka</td>
+</tr>
+<tr>
+  <td>👯 <strong>Looking for</strong></td>
+  <td>Java Backend Collabs · Open Source · Hackathons</td>
+</tr>
+<tr>
+  <td>💬 <strong>Ask me about</strong></td>
+  <td>Spring Boot · REST APIs · Docker · AWS EC2 · MySQL</td>
+</tr>
+<tr>
+  <td>📫 <strong>Reach me at</strong></td>
+  <td>ayushparadkar4@gmail.com</td>
+</tr>
+<tr>
+  <td>⚡ <strong>Fun fact</strong></td>
+  <td>I debug production at 2AM and still love it 😄</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<!-- ═══════════════════════ CONNECT ═══════════════════════ -->
+
+## 🤝 Let's Connect & Build Together!
 
 <div align="center">
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <h3>💼 Full-Time Roles</h3>
+      <h3>💼 Full-Time</h3>
       Java Developer<br/>
       Backend Engineer<br/>
       Spring Boot Specialist
@@ -265,13 +314,13 @@ public class AayushParadkar extends Developer {
       <h3>🔧 Freelance</h3>
       REST API Development<br/>
       Full-Stack Web Apps<br/>
-      Cloud Deployment
+      Cloud Deployment & DevOps
     </td>
     <td align="center" width="33%">
-      <h3>🤝 Collaborations</h3>
+      <h3>🤝 Collab</h3>
       Open Source Projects<br/>
-      Hackathons<br/>
-      Side Projects
+      Hackathons & Competitions<br/>
+      Exciting Side Projects
     </td>
   </tr>
 </table>
@@ -281,16 +330,18 @@ public class AayushParadkar extends Developer {
 <a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/">
   <img src="https://img.shields.io/badge/🌐_Visit_Portfolio-6C63FF?style=for-the-badge" />
 </a>
+&nbsp;
 <a href="https://leetcode.com/u/aayushparadkar99/">
   <img src="https://img.shields.io/badge/⚡_LeetCode_Profile-FFA116?style=for-the-badge" />
 </a>
+&nbsp;
 <a href="mailto:ayushparadkar4@gmail.com">
   <img src="https://img.shields.io/badge/📧_Hire_Me-EA4335?style=for-the-badge" />
 </a>
 
 </div>
 
----
+<br/>
 
-<!-- Footer Capsule Render -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:FF6B6B&height=120&section=footer&text=Code.%20Build.%20Deploy.%20Scale.%20Repeat.&fontSize=18&fontColor=ffffff&fontAlignY=70&animation=fadeIn" />
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:a855f7,100:FF6B6B&height=130&section=footer&text=Code.%20Build.%20Deploy.%20Scale.%20Repeat.%20🚀&fontSize=17&fontColor=ffffff&fontAlignY=72&animation=fadeIn" />
