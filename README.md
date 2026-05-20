@@ -155,7 +155,7 @@
 
   - ✅ **AssessHub** — MCQ platform on AWS EC2
   - ✅ **Hotel Booking** — Spring Boot + React
-  - ✅ **Job Portal** — Role-based student app
+  - ✅ **DevBlockers** — Microservices Org Manager
   - ✅ **Food Delivery** — MERN + real-time tracking
   - ✅ **Java CRUD** — Spring Boot + React basics
 
