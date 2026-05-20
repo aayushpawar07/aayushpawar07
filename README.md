@@ -181,19 +181,19 @@
 <div align="center">
 
 <a href="https://github.com/aayushpawar07/CodePlannet">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=CodePlannet&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aayushpawar07&repo=CodePlannet&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
 </a>
 <a href="https://github.com/aayushpawar07/HotelBookingApplication">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=HotelBookingApplication&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aayushpawar07&repo=HotelBookingApplication&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/aayushpawar07/JobRecommendationPortal">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=JobRecommendationPortal&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aayushpawar07&repo=JobRecommendationPortal&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
 </a>
 <a href="https://github.com/aayushpawar07/Food-Delivery-Website">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=Food-Delivery-Website&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aayushpawar07&repo=Food-Delivery-Website&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
 </a>
 
 </div>
@@ -206,8 +206,8 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=aayushpawar07&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B&text_color=FFFFFF&ring_color=6C63FF" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpawar07&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF" />
+<img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=aayushpawar07&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B&text_color=FFFFFF&ring_color=6C63FF" />
+<img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aayushpawar07&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF" />
 
 </div>
 
