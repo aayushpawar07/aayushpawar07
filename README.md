@@ -1,29 +1,21 @@
 <!-- ═══════════════════════ HEADER ═══════════════════════ -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:6C63FF,100:FF6B6B&height=280&section=header&text=Aayush%20Paradkar&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=☕%20Java%20Developer%20%7C%20🚀%20Spring%20Boot%20%7C%20☁️%20Microservices%20%7C%20🔐%20Cloud%20Native&descAlignY=60&descSize=18&descColor=c4b5fd" />
 
-<br/>
-
 <!-- ═══════════════════════ TYPING + BADGES ═══════════════════════ -->
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2500&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=650&lines=☕+Java+%26+Spring+Boot+Developer;🔐+JWT+%7C+Spring+Security+%7C+2FA+Expert;☁️+AWS+EC2+%7C+Docker+%7C+Nginx+%7C+Linux;🏗️+Microservices+%7C+REST+APIs+%7C+JPA;💡+Open+for+Collabs+%26+Opportunities!)](https://git.io/typing-svg)
-
-<br/>
 
 <a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/"><img src="https://img.shields.io/badge/🌐 Portfolio-6C63FF?style=for-the-badge" /></a>
 <a href="https://www.linkedin.com/in/aayush-paradkar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://leetcode.com/u/aayushparadkar99/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
 <a href="mailto:ayushparadkar4@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-<br/><br/>
-
 ![Profile Views](https://komarev.com/ghpvc/?username=aayushpawar07&label=👁️+Profile+Views&color=6C63FF&style=for-the-badge)
 ![GitHub Followers](https://img.shields.io/github/followers/aayushpawar07?label=👥+Followers&style=for-the-badge&color=6C63FF)
 ![GitHub Stars](https://img.shields.io/github/stars/aayushpawar07?label=⭐+Total+Stars&style=for-the-badge&color=FF6B6B)
 
 </div>
-
-<br/>
 
 ---
 
