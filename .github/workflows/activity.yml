@@ -1,0 +1,25 @@
+name: Update Recent Activity
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # Runs every 3 hours
+  workflow_dispatch:        # Allows manual trigger
+  push:
+    branches:
+      - main
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Fetch Recent Activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          MAX_LINES: 5
