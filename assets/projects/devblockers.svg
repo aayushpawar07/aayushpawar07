@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="120" viewBox="0 0 450 120" fill="none">
+  <!-- Card Outline & Background -->
+  <rect x="0.5" y="0.5" width="449" height="119" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+  
+  <!-- Title Repository Icon -->
+  <g transform="translate(16, 16)">
+    <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z" fill="#6C63FF"/>
+  </g>
+  
+  <!-- Title / Repo Name -->
+  <text x="38" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#6C63FF">DevBlockers</text>
+  
+  <!-- Description -->
+  <text x="16" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Microservices-based Organization &amp; Team Management Platform.</text>
+  <text x="16" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Features Spring Boot, Java, JWT security, and MySQL migrations.</text>
+  
+  <!-- Footer -->
+  <!-- Language Dot (Java) -->
+  <circle cx="22" cy="98" r="6" fill="#b07219" />
+  <!-- Language Text -->
+  <text x="34" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Java</text>
+  
+  <!-- Tech Badges / Extra Tags -->
+  <rect x="75" y="88" width="50" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <text x="100" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">MySQL</text>
+
+  <rect x="133" y="88" width="80" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <text x="173" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">Microservices</text>
+
+  <!-- Stars -->
+  <g transform="translate(390, 90)">
+    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z" fill="#8B949E"/>
+  </g>
+  <text x="410" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">1</text>
+</svg>

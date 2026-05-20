@@ -181,19 +181,19 @@
 <div align="center">
 
 <a href="https://github.com/aayushpawar07/CodePlannet">
-  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aayushpawar07&repo=CodePlannet&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+  <img width="48%" src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/projects/codeplannet.svg" alt="CodePlannet" />
 </a>
 <a href="https://github.com/aayushpawar07/HotelBookingApplication">
-  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aayushpawar07&repo=HotelBookingApplication&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+  <img width="48%" src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/projects/hotelbooking.svg" alt="HotelBookingApplication" />
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/aayushpawar07/JobRecommendationPortal">
-  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aayushpawar07&repo=JobRecommendationPortal&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+<a href="https://github.com/aayushpawar07/DevBlockers">
+  <img width="48%" src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/projects/devblockers.svg" alt="DevBlockers" />
 </a>
 <a href="https://github.com/aayushpawar07/Food-Delivery-Website">
-  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=aayushpawar07&repo=Food-Delivery-Website&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B" />
+  <img width="48%" src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/projects/fooddelivery.svg" alt="Food-Delivery-Website" />
 </a>
 
 </div>
