@@ -1,149 +1,197 @@
+<!-- Header Capsule Render Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:6C63FF,100:FF6B6B&height=300&section=header&text=Aayush%20Paradkar&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20Cloud&descAlignY=58&descSize=20&descColor=A78BFA" />
+
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Hey+there!+I'm+Aayush+Paradkar+👋;Java+Developer+%7C+Spring+Boot+%7C+Microservices;Building+Scalable+Backend+Systems+🚀)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=☕+Java+%26+Spring+Boot+Developer;🚀+Building+Scalable+Microservices;☁️+Cloud-Native+%7C+AWS+EC2+%7C+Docker;🔐+Security+%7C+JWT+%7C+Spring+Security;💡+20+Followers+%7C+92%2B+Contributions)](https://git.io/typing-svg)
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6C63FF?style=for-the-badge&logoColor=white)](https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aayush-paradkar)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/aayushparadkar99/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aayushpawar07)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushparadkar4@gmail.com)
+<a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/🌐 Portfolio-6C63FF?style=for-the-badge&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/aayush-paradkar" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://leetcode.com/u/aayushparadkar99/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+</a>
+<a href="mailto:ayushparadkar4@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://github.com/aayushpawar07" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=aayushpawar07&label=👁️+Profile+Views&color=6C63FF&style=for-the-badge)
+![GitHub Followers](https://img.shields.io/github/followers/aayushpawar07?label=👥+Followers&style=for-the-badge&color=6C63FF)
 
 </div>
 
 ---
 
-## 🔥 About Me
+## 🧬 About Me
+
+<img align="right" alt="Coding GIF" width="380" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXlkMm12OTNkamloaXc4dml6Y2Q4aHZxazR6amN3bHp2bXFzMzBxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ```java
-public class AayushParadkar {
+/**
+ * @author  Aayush Paradkar
+ * @version 2026-latest
+ * @desc    Passionate Java Backend Developer
+ */
+public class AayushParadkar extends Developer {
 
-    String  name        = "Aayush Paradkar";
-    String  location    = "📍 Bhopal, India";
-    String  education   = "🎓 B.Tech CSE";
-    String  company     = "💻 Java Developer @ Cloud Nexus";
+  private final String name     = "Aayush Paradkar";
+  private final String location = "📍 Bhopal, India";
+  private final String company  = "💼 Java Dev @ Cloud Nexus";
+  private final String degree   = "🎓 B.Tech CSE";
 
-    String[] currentFocus = {
-        "Spring Boot & Microservices",
-        "Scalable Backend Architecture",
-        "Cloud-Native Development on AWS"
-    };
+  private String[] currentWork = {
+    "⚡ Microservices with Spring Boot",
+    "☁️  Cloud-Native Apps on AWS",
+    "🔐 Secure APIs with JWT + 2FA"
+  };
 
-    Map<String, String[]> skills = Map.of(
-        "backend",   new String[]{"Java", "Spring Boot", "Spring Security", "REST APIs"},
-        "database",  new String[]{"MySQL", "PostgreSQL", "MongoDB", "JPA/Hibernate"},
-        "devOps",    new String[]{"Docker", "AWS EC2", "Git", "Linux", "Nginx"},
-        "frontend",  new String[]{"React", "JavaScript", "Tailwind CSS", "Vite"}
-    );
+  private String[] learning = {
+    "📐 System Design & Architecture",
+    "🐳 Kubernetes & Container Orchestration",
+    "🔴 Redis Caching & Kafka Streaming"
+  };
 
-    String achievements = "🏆 20 Followers | 92 Contributions | Active Open-Source";
-    String goal         = "🎯 Build systems that scale to millions of users";
-    String status       = "✅ Open to Full-Time & Freelance Opportunities";
+  @Override
+  public String getGoal() {
+    return "🚀 Build systems that scale to millions!";
+  }
 }
 ```
 
+<br clear="right"/>
+
 ---
 
-## 🛠️ Tech Stack
+## 🏆 GitHub Trophies
 
-### 💻 Languages & Backend
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=aayushpawar07&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 🛠️ Tech Arsenal
+
+<div align="center">
+
+### ☕ Core — Backend & Languages
+<img src="https://skillicons.dev/icons?i=java,spring,python,js,ts,cpp&perline=6" />
 
 ### 🌐 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,vite,figma&perline=6" />
 
 ### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+<img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,hibernate&perline=6" />
 
-### ☁️ DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+### ☁️ DevOps, Cloud & Tools
+<img src="https://skillicons.dev/icons?i=docker,aws,git,github,linux,postman,nginx,vscode,idea&perline=9" />
+
+</div>
 
 ---
 
-## 🚀 What I Build
+## 💼 Experience
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center" width="33%">
-      <h3>☕ Java & Spring Boot</h3>
-      REST APIs | Microservices<br/>
-      JWT + 2FA Security<br/>
-      <em>Enterprise-grade backends</em>
+    <td width="50%" valign="top">
+      <h3>💻 Cloud Nexus</h3>
+      <strong>Java Developer</strong> | Current<br/><br/>
+      ✅ Building scalable microservices with Spring Boot<br/>
+      ✅ Designing REST APIs with Spring Security & JWT<br/>
+      ✅ Deploying apps on AWS EC2 with Docker & Nginx<br/>
+      ✅ Database optimization with MySQL & JPA/Hibernate
     </td>
-    <td align="center" width="33%">
-      <h3>🔐 Secure Systems</h3>
-      Spring Security | RBAC<br/>
-      Email OTP | OAuth2<br/>
-      <em>Authentication at scale</em>
-    </td>
-    <td align="center" width="33%">
-      <h3>☁️ Cloud Deployment</h3>
-      Docker | AWS EC2 | Nginx<br/>
-      CI/CD Pipelines<br/>
-      <em>Production-ready apps</em>
+    <td width="50%" valign="top">
+      <h3>🚀 Open Source & Projects</h3>
+      <strong>Full-Stack Developer</strong> | Ongoing<br/><br/>
+      ✅ AssessHub — Full-stack MCQ platform on AWS<br/>
+      ✅ Hotel Booking App — Spring Boot + React<br/>
+      ✅ Job Recommendation Portal — Role-based system<br/>
+      ✅ Food Delivery Website — MERN + Real-time tracking
     </td>
   </tr>
 </table>
 
 ---
 
-## 🏆 Featured Projects
+## 🚀 Featured Projects
 
-### 🎯 [AssessHub — MCQ Assessment Platform](https://github.com/aayushpawar07/CodePlannet)
-> **Spring Boot** • **React** • **MySQL** • **JWT + 2FA** • **Docker** • **AWS EC2**
+<div align="center">
 
-A full-stack, role-based MCQ testing platform built for organizations to assess trainees & interns.
-- ✅ Role-based auth: **Admin / Trainee / Intern / PPO** with Spring Security + JWT
-- ✅ **Two-Factor Authentication** (Email OTP) for secure login flows
-- ✅ Admin panel: Create tests, manage users, view & release results
-- ✅ **Deployed on AWS EC2** with Docker Compose & Nginx reverse proxy
-- ✅ Real-time test assignment & automated result tracking
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎯 AssessHub</h3>
+      <a href="https://github.com/aayushpawar07/CodePlannet">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=CodePlannet&theme=radical&hide_border=true&bg_color=0D1117" />
+      </a>
+      <br/>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Docker-2CA5E0?style=flat&logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white"/>
+      <br/><br/>
+      Role-based MCQ testing platform with JWT + 2FA, deployed on AWS EC2 with Docker & Nginx.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏨 Hotel Booking App</h3>
+      <a href="https://github.com/aayushpawar07/HotelBookingApplication">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=HotelBookingApplication&theme=radical&hide_border=true&bg_color=0D1117" />
+      </a>
+      <br/>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+      <br/><br/>
+      Full-stack hotel booking system with room management, RBAC, and real-time availability.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💼 Job Recommendation Portal</h3>
+      <a href="https://github.com/aayushpawar07/JobRecommendationPortal">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=JobRecommendationPortal&theme=radical&hide_border=true&bg_color=0D1117" />
+      </a>
+      <br/>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+      <br/><br/>
+      Smart job portal where students find & apply to jobs with role-based signup and tracking.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🍕 Food Delivery Website</h3>
+      <a href="https://github.com/aayushpawar07/Food-Delivery-Website">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=aayushpawar07&repo=Food-Delivery-Website&theme=radical&hide_border=true&bg_color=0D1117" />
+      </a>
+      <br/>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/>
+      <br/><br/>
+      End-to-end food delivery platform with real-time tracking and secure payment integration.
+    </td>
+  </tr>
+</table>
 
----
-
-### 🏨 [Hotel Booking Application](https://github.com/aayushpawar07/HotelBookingApplication)
-> **Spring Boot** • **React** • **JPA/Hibernate** • **MySQL**
-
-Full-stack hotel booking system with room management & booking workflows.
-- ✅ Complete CRUD for rooms, bookings, and users
-- ✅ Spring Security with **Admin / Guest** role-based access
-- ✅ Responsive React frontend with real-time room availability
-
----
-
-### 💼 [Job Recommendation Portal](https://github.com/aayushpawar07/JobRecommendationPortal)
-> **Java** • **Spring Boot** • **React** • **MySQL**
-
-Full-stack job portal where students can discover and apply for their dream jobs.
-- ✅ **Student & Recruiter** role-based system with secure signup/login
-- ✅ Smart job recommendations with filtering & search
-- ✅ End-to-end application tracking workflow
-
----
-
-### 🍕 [Food Delivery Website](https://github.com/aayushpawar07/Food-Delivery-Website)
-> **MERN Stack** • **REST APIs** • **Real-Time Tracking**
-
-End-to-end food delivery platform with real-time order tracking.
-- ✅ Browse restaurants, place orders & track delivery live
-- ✅ Secure payment integration & smooth UX
-- ✅ Fully responsive, mobile-first design
+</div>
 
 ---
 
@@ -151,65 +199,98 @@ End-to-end food delivery platform with real-time order tracking.
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=aayushpawar07&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=FFFFFF"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpawar07&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=aayushpawar07&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B&text_color=FFFFFF&ring_color=6C63FF" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayushpawar07&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF" />
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=aayushpawar07&theme=tokyonight&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=aayushpawar07&theme=radical&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF&sideLabels=FFFFFF&dates=FFFFFF)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-## 📈 Contribution Activity
+## 📈 Contribution Graph
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=aayushpawar07&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FF6B6B&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=aayushpawar07&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FF6B6B&area=true&area_color=6C63FF&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
 
-## 🎯 Current Focus
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+
+## 🎯 Currently
 
 ```
-🔭 Currently working on  → Scalable Microservices @ Cloud Nexus
-🌱 Currently learning    → System Design | Kubernetes | Redis | Kafka
-👯 Open to collaborate   → Java Backend | Full-Stack Projects | Open Source
-💬 Ask me about          → Spring Boot, REST APIs, Docker, AWS EC2, MySQL
-📫 Reach me at           → ayushparadkar4@gmail.com
-⚡ Fun fact              → I debug production at 2AM and still love it 😄
+🔭  Working on    →  Scalable Microservices @ Cloud Nexus
+🌱  Learning      →  System Design | Kubernetes | Redis | Kafka
+👯  Looking for   →  Java Backend | Full-Stack Collabs | Open Source
+💬  Ask me about  →  Spring Boot · REST APIs · Docker · AWS EC2 · MySQL
+📫  Reach me at   →  ayushparadkar4@gmail.com
+⚡  Fun fact      →  I debug production at 2AM and still love it 😄
 ```
 
 ---
 
-## 🤝 Let's Connect & Build Together!
+## 🤝 Open for Opportunities
 
 <div align="center">
 
-| 💼 Full-Time Roles | 🔧 Freelance | 🤝 Open Source |
-|:---:|:---:|:---:|
-| Java Dev \| Backend Engineer | APIs \| Web Apps \| Systems | Collaborations \| Hackathons |
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>💼 Full-Time Roles</h3>
+      Java Developer<br/>
+      Backend Engineer<br/>
+      Spring Boot Specialist
+    </td>
+    <td align="center" width="33%">
+      <h3>🔧 Freelance</h3>
+      REST API Development<br/>
+      Full-Stack Web Apps<br/>
+      Cloud Deployment
+    </td>
+    <td align="center" width="33%">
+      <h3>🤝 Collaborations</h3>
+      Open Source Projects<br/>
+      Hackathons<br/>
+      Side Projects
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Visit_My_Portfolio-6C63FF?style=for-the-badge)](https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/)
-[![LeetCode](https://img.shields.io/badge/⚡_LeetCode_Profile-FFA116?style=for-the-badge)](https://leetcode.com/u/aayushparadkar99/)
+<a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐_Visit_Portfolio-6C63FF?style=for-the-badge" />
+</a>
+<a href="https://leetcode.com/u/aayushparadkar99/">
+  <img src="https://img.shields.io/badge/⚡_LeetCode_Profile-FFA116?style=for-the-badge" />
+</a>
+<a href="mailto:ayushparadkar4@gmail.com">
+  <img src="https://img.shields.io/badge/📧_Hire_Me-EA4335?style=for-the-badge" />
+</a>
 
 </div>
 
 ---
 
-<div align="center">
-
-### 💬 *"Code. Build. Deploy. Scale. Repeat."*
-
-![Visitor Count](https://komarev.com/ghpvc/?username=aayushpawar07&label=Profile+Views&color=6C63FF&style=for-the-badge)
-
-⭐ **Star my repositories if you find them interesting!** ⭐
-
-</div>
+<!-- Footer Capsule Render -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:FF6B6B&height=120&section=footer&text=Code.%20Build.%20Deploy.%20Scale.%20Repeat.&fontSize=18&fontColor=ffffff&fontAlignY=70&animation=fadeIn" />
