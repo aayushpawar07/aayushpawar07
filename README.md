@@ -72,6 +72,11 @@
 
 ![Status](https://img.shields.io/badge/Status-Open_to_Work_✅-22c55e?style=flat-square)
 
+<br/><br/>
+
+<!-- Live Weather & Time in Bhopal -->
+<img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/weather/bhopal.svg" alt="Bhopal Weather" width="320" />
+
 </td>
 </tr>
 </table>
@@ -192,6 +197,18 @@
 
 ---
 
+<!-- ═══════════════════════ ARCHITECTURE ═══════════════════════ -->
+
+## 🏗️ Microservices System Architecture
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/projects/architecture.svg" alt="System Architecture Diagram" width="100%" />
+
+</div>
+
+---
+
 <!-- ═══════════════════════ GITHUB STATS ═══════════════════════ -->
 
 ## 📊 GitHub Stats
@@ -211,6 +228,18 @@
 
 ---
 
+<!-- ═══════════════════════ LEETCODE ═══════════════════════ -->
+
+## 🧠 LeetCode & Problem Solving
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/aayushparadkar99?theme=radical&font=Fira+Code&ext=activity)](https://leetcode.com/u/aayushparadkar99/)
+
+</div>
+
+---
+
 <!-- ═══════════════════════ ACTIVITY GRAPH ═══════════════════════ -->
 
 ## 📈 Contribution Activity
@@ -220,6 +249,15 @@
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=aayushpawar07&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FF6B6B&area=true&area_color=6C63FF&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
+
+---
+
+<!-- ═══════════════════════ RECENT ACTIVITY ═══════════════════════ -->
+
+## ⚡ Recent GitHub Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
