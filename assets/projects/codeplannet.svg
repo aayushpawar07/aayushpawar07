@@ -83,7 +83,9 @@
     <rect x="140" y="44" width="146" height="16" rx="3" fill="#161B22" />
     <text x="146" y="55" font-family="'Inter', sans-serif" font-weight="700" font-size="7" fill="#6C63FF">MCQ Platform Assessment</text>
     <rect x="250" y="48" width="30" height="8" rx="2" fill="#22c55e" fill-opacity="0.2" />
-    <circle cx="254" cy="52" r="2" fill="#22c55e" />
+    <circle cx="254" cy="52" r="2" fill="#22c55e">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
 
     <!-- Question Box -->
     <rect x="140" y="66" width="146" height="42" rx="3" fill="#161B22" />
@@ -91,17 +93,21 @@
     <rect x="146" y="79" width="100" height="3" rx="1.5" fill="#8B949E" />
     <!-- Radio Choices -->
     <circle cx="150" cy="91" r="3" fill="#1F2937" stroke="#30363D" stroke-width="1" />
-    <circle cx="150" cy="91" r="1.5" fill="#6C63FF" class="glow-purple" />
+    <circle cx="150" cy="91" r="1.5" fill="#6C63FF" class="glow-purple">
+      <animate attributeName="r" values="1;2;1" dur="2s" repeatCount="indefinite" />
+    </circle>
     <rect x="158" y="89" width="50" height="3" rx="1.5" fill="#8B949E" />
 
     <circle cx="150" cy="100" r="3" fill="#1F2937" stroke="#30363D" stroke-width="1" />
     <rect x="158" y="98" width="65" height="3" rx="1.5" fill="#4f5b66" />
 
-    <!-- Circular Progress Dials (Grades) -->
+    <!-- Circular Progress Dials (Grades animated) -->
     <rect x="140" y="114" width="68" height="46" rx="3" fill="#161B22" />
     <!-- Dial -->
     <circle cx="174" cy="132" r="12" stroke="#1F2937" stroke-width="2.5" fill="none" />
-    <circle cx="174" cy="132" r="12" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-dasharray="75" stroke-dashoffset="20" stroke-linecap="round" class="glow-cyan" />
+    <circle cx="174" cy="132" r="12" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-dasharray="75" stroke-dashoffset="75" stroke-linecap="round" class="glow-cyan">
+      <animate attributeName="stroke-dashoffset" values="75;20;75" dur="6s" repeatCount="indefinite" />
+    </circle>
     <text x="174" y="135" font-family="'Inter', sans-serif" font-weight="800" font-size="8" fill="#FFFFFF" text-anchor="middle">85%</text>
     <text x="174" y="153" font-family="'Inter', sans-serif" font-weight="600" font-size="6" fill="#8B949E" text-anchor="middle">Pass Rate</text>
 
@@ -112,9 +118,12 @@
     <rect x="220" y="138" width="55" height="3.5" rx="1.5" fill="#30363D" />
     <rect x="220" y="146" width="40" height="3.5" rx="1.5" fill="#6C63FF" opacity="0.6" />
 
-    <!-- Glowing Security Shield Overlay (JWT/2FA) -->
+    <!-- Glowing Security Shield Overlay (JWT/2FA pulsating) -->
     <g transform="translate(265, 125)" class="glow-yellow">
-      <path d="M18 2.5 L6 7.5 L6 17 C6 24 12 28.5 18 31 C24 28.5 30 24 30 17 L30 7.5 Z" fill="url(#shield-grad)" />
+      <animateTransform attributeName="transform" type="translate" values="265,125; 265,123; 265,125" dur="2.5s" repeatCount="indefinite" additive="sum" />
+      <path d="M18 2.5 L6 7.5 L6 17 C6 24 12 28.5 18 31 C24 28.5 30 24 30 17 L30 7.5 Z" fill="url(#shield-grad)">
+        <animate attributeName="fill-opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite" />
+      </path>
       <!-- Inner detail -->
       <path d="M18 6 L10 9.3 L10 17 C10 22.3 14.5 25.8 18 27.8 L18 6 Z" fill="#FFFFFF" fill-opacity="0.25" />
       <!-- Lock Icon inside shield -->

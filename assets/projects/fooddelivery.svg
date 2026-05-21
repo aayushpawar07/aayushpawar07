@@ -59,9 +59,14 @@
   <g transform="translate(0, 75)">
     <!-- Base Ground / Road Line -->
     <line x1="50" y1="185" x2="330" y2="185" stroke="#4B5563" stroke-width="2" stroke-linecap="round" />
-    <!-- Dashed Speed trails -->
-    <line x1="280" y1="175" x2="310" y2="175" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="3 3" class="glow-red" />
-    <line x1="60" y1="175" x2="90" y2="175" stroke="#22c55e" stroke-width="2" stroke-dasharray="3 3" class="glow-green" />
+    
+    <!-- Dashed Speed trails (Animated) -->
+    <line x1="280" y1="175" x2="310" y2="175" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="6 4" class="glow-red">
+      <animate attributeName="stroke-dashoffset" values="30;0" dur="0.8s" repeatCount="indefinite" />
+    </line>
+    <line x1="60" y1="175" x2="90" y2="175" stroke="#22c55e" stroke-width="2" stroke-dasharray="6 4" class="glow-green">
+      <animate attributeName="stroke-dashoffset" values="0;30" dur="0.8s" repeatCount="indefinite" />
+    </line>
 
     <!-- Smartphone Frame -->
     <rect x="145" y="30" width="90" height="145" rx="10" fill="#242933" stroke="#4B5563" stroke-width="1.5" />
@@ -71,13 +76,23 @@
     <!-- Map Routing Elements Inside Screen -->
     <!-- Grid pattern background representing streets -->
     <path d="M150,60 L230,60 M150,110 L230,110 M180,36 L180,169 M210,36 L210,169" stroke="#1F2937" stroke-width="1" />
-    <!-- Active Green Route Path -->
-    <path d="M165,150 L165,95 L200,95 L200,60" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="glow-green" />
     
+    <!-- Active Green Route Path (Animated Dash Flow) -->
+    <path d="M165,150 L165,95 L200,95 L200,60" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="glow-green" stroke-dasharray="8 6">
+      <animate attributeName="stroke-dashoffset" values="100;0" dur="3s" repeatCount="indefinite" />
+    </path>
+    
+    <!-- Pulsing User Locator concentric ring -->
+    <circle cx="165" cy="150" r="5" fill="none" stroke="#22c55e" stroke-width="1.5">
+      <animate attributeName="r" values="5;15" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0" dur="2s" repeatCount="indefinite" />
+    </circle>
     <!-- User Locator Circle -->
     <circle cx="165" cy="150" r="5" fill="#22c55e" stroke="#111827" stroke-width="1" class="glow-green" />
-    <!-- Destination Red Map Pin -->
+    
+    <!-- Floating Destination Red Map Pin -->
     <g transform="translate(200, 60)" class="glow-red">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="2s" repeatCount="indefinite" additive="sum" />
       <path d="M0,0 C-4,-4 -6,-8 -6,-12 C-6,-17 -3,-20 0,-20 C3,-20 6,-17 6,-12 C6,-8 4,-4 0,0 Z" fill="#FF6B6B" />
       <circle cx="0" cy="-12" r="2.5" fill="#FFFFFF" />
     </g>
@@ -85,6 +100,8 @@
     <!-- FLOATING ITEMS -->
     <!-- Floating Item 1: Cute Pizza Slice (Left) -->
     <g transform="translate(95, 75)" class="glow-orange">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3.5; 0,0" dur="3s" repeatCount="indefinite" additive="sum" />
+      <animateTransform attributeName="transform" type="rotate" values="0; 3; -3; 0" dur="6s" repeatCount="indefinite" additive="sum" />
       <path d="M0,-24 L20,16 L-20,16 Z" fill="#EBCB8B" stroke="#D08770" stroke-width="1.5" stroke-linejoin="round" />
       <!-- Pepperoni dots -->
       <circle cx="0" cy="-2" r="3" fill="#BF616A" />
@@ -96,6 +113,8 @@
 
     <!-- Floating Item 2: Burger (Right) -->
     <g transform="translate(285, 75)" class="glow-orange">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,3.5; 0,0" dur="3.5s" repeatCount="indefinite" additive="sum" />
+      <animateTransform attributeName="transform" type="rotate" values="0; -3; 3; 0" dur="7s" repeatCount="indefinite" additive="sum" />
       <!-- Bun Top -->
       <path d="M-15,0 C-15,-10 15,-10 15,0 Z" fill="#D08770" stroke="#B48EAD" stroke-width="0.5" />
       <!-- Lettuce -->
@@ -108,8 +127,9 @@
       <rect x="-15" y="11" width="30" height="3" rx="1.5" fill="#D08770" />
     </g>
 
-    <!-- Floating Item 3: Fast Delivery Scooter (Bottom Overlay) -->
+    <!-- Floating Item 3: Fast Delivery Scooter (Bottom Overlay with Engine Shake) -->
     <g transform="translate(190, 140)" class="glow-red">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-0.6; 0,0.3; 0,0" dur="0.2s" repeatCount="indefinite" additive="sum" />
       <circle cx="0" cy="0" r="14" fill="#FF6B6B" fill-opacity="0.15" />
       <!-- Simplified neon scooter icon -->
       <path d="M-12,2 L12,2" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round" />
@@ -123,9 +143,15 @@
       <rect x="-8" y="-9" width="8" height="8" rx="1" fill="#FF6B6B" />
     </g>
     
-    <!-- Sparkles -->
-    <circle cx="65" cy="35" r="2.5" fill="#22c55e" class="glow-green" />
-    <circle cx="320" cy="130" r="3" fill="#FF6B6B" class="glow-red" />
+    <!-- Twinkling Sparkles -->
+    <circle cx="65" cy="35" r="2.5" fill="#22c55e" class="glow-green">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite" />
+      <animate attributeName="r" values="2;3.2;2" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="320" cy="130" r="3" fill="#FF6B6B" class="glow-red">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="3;1.5;3" dur="2.2s" repeatCount="indefinite" />
+    </circle>
   </g>
 
   <!-- ==================== TEXT & DETAILS ==================== -->

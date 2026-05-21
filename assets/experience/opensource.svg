@@ -49,37 +49,54 @@
 
   <!-- Creative Git Activity / Open Source Illustration -->
   <g transform="translate(25, 20)">
-    <!-- Tiny Contribution Grid representation (GitHub squares) -->
+    <!-- Tiny Contribution Grid representation (GitHub squares pulsing) -->
     <g transform="translate(0, 10)">
       <rect x="0" y="0" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
-      <rect x="12" y="0" width="8" height="8" rx="1.5" fill="#FF6B6B" fill-opacity="0.6" stroke="#FF6B6B" stroke-width="0.5" />
+      <rect x="12" y="0" width="8" height="8" rx="1.5" fill="#FF6B6B" fill-opacity="0.6" stroke="#FF6B6B" stroke-width="0.5">
+        <animate attributeName="fill-opacity" values="0.3;0.8;0.3" dur="2.5s" repeatCount="indefinite" />
+      </rect>
       <rect x="24" y="0" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
-      <rect x="36" y="0" width="8" height="8" rx="1.5" fill="#FFA116" fill-opacity="0.8" stroke="#FFA116" stroke-width="0.5" />
+      <rect x="36" y="0" width="8" height="8" rx="1.5" fill="#FFA116" fill-opacity="0.8" stroke="#FFA116" stroke-width="0.5">
+        <animate attributeName="fill-opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite" />
+      </rect>
 
-      <rect x="0" y="12" width="8" height="8" rx="1.5" fill="#FFA116" fill-opacity="0.4" stroke="#FFA116" stroke-width="0.5" />
+      <rect x="0" y="12" width="8" height="8" rx="1.5" fill="#FFA116" fill-opacity="0.4" stroke="#FFA116" stroke-width="0.5">
+        <animate attributeName="fill-opacity" values="0.2;0.7;0.2" dur="2s" repeatCount="indefinite" />
+      </rect>
       <rect x="12" y="12" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
-      <rect x="24" y="12" width="8" height="8" rx="1.5" fill="#FF6B6B" stroke="#FF6B6B" stroke-width="0.5" class="glow-red" />
+      <rect x="24" y="12" width="8" height="8" rx="1.5" fill="#FF6B6B" stroke="#FF6B6B" stroke-width="0.5" class="glow-red">
+        <animate attributeName="stroke-width" values="0.5;1.2;0.5" dur="1.5s" repeatCount="indefinite" />
+      </rect>
       <rect x="36" y="12" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
 
       <rect x="0" y="24" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
-      <rect x="12" y="24" width="8" height="8" rx="1.5" fill="#FFA116" stroke="#FFA116" stroke-width="0.5" class="glow-orange" />
+      <rect x="12" y="24" width="8" height="8" rx="1.5" fill="#FFA116" stroke="#FFA116" stroke-width="0.5" class="glow-orange">
+        <animate attributeName="fill-opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite" />
+      </rect>
       <rect x="24" y="24" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
-      <rect x="36" y="24" width="8" height="8" rx="1.5" fill="#FF6B6B" fill-opacity="0.4" stroke="#FF6B6B" stroke-width="0.5" />
+      <rect x="36" y="24" width="8" height="8" rx="1.5" fill="#FF6B6B" fill-opacity="0.4" stroke="#FF6B6B" stroke-width="0.5">
+        <animate attributeName="fill-opacity" values="0.1;0.6;0.1" dur="2.8s" repeatCount="indefinite" />
+      </rect>
     </g>
 
-    <!-- Git Branch Line connecting to a launching Rocket -->
+    <!-- Git Branch Line with flowing data packets -->
     <path d="M 60,35 C 75,35 85,15 105,15 L 170,15" stroke="#30363D" stroke-width="1.5" stroke-linecap="round" />
-    <path d="M 60,35 C 75,35 85,55 105,55 L 170,55" stroke="#FF6B6B" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 60,35 C 75,35 85,55 105,55 L 170,55" stroke="#FF6B6B" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="8;0" dur="1s" repeatCount="indefinite" />
+    </path>
     <circle cx="105" cy="55" r="3" fill="#1F2937" stroke="#FF6B6B" stroke-width="1.5" />
     <circle cx="135" cy="15" r="3" fill="#1F2937" stroke="#30363D" stroke-width="1.5" />
 
-    <!-- Rocket Launching Vector -->
+    <!-- Rocket Launching with float and fire flame pulsation -->
     <g transform="translate(195, 0)">
+      <animateTransform attributeName="transform" type="translate" values="195,0; 195,-4; 195,0" dur="3s" repeatCount="indefinite" additive="sum" />
       <circle cx="45" cy="35" r="25" fill="#FFA116" fill-opacity="0.1" class="glow-orange" />
       <!-- Rocket Body -->
       <path d="M 37,20 C 37,20 40,12 45,12 C 50,12 53,20 53,20 L 55,42 C 55,42 50,47 45,47 C 40,47 35,42 35,42 Z" fill="url(#icon-grad)" stroke="#FFFFFF" stroke-width="0.8" class="glow-orange" />
-      <!-- Fire flame -->
-      <path d="M 41,48 L 45,58 L 49,48 Z" fill="#FFA116" opacity="0.9" class="glow-orange" />
+      <!-- Fire flame pulsating -->
+      <path d="M 41,48 L 45,58 L 49,48 Z" fill="#FFA116" opacity="0.9" class="glow-orange">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="0.25s" repeatCount="indefinite" />
+      </path>
       <path d="M 43,48 L 45,54 L 47,48 Z" fill="#FF5F56" />
       <!-- Window -->
       <circle cx="45" cy="26" r="3" fill="#111827" stroke="#FFFFFF" stroke-width="0.8" />
