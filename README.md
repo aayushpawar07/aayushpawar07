@@ -285,34 +285,7 @@
 ## 🎯 Right Now
 
 <div align="center">
-
-<table width="80%">
-<tr>
-  <td>🔭 <strong>Working on</strong></td>
-  <td>Scalable Microservices @ Cloud Nexus</td>
-</tr>
-<tr>
-  <td>🌱 <strong>Learning</strong></td>
-  <td>System Design · Kubernetes · Redis · Kafka</td>
-</tr>
-<tr>
-  <td>👯 <strong>Looking for</strong></td>
-  <td>Java Backend Collabs · Open Source · Hackathons</td>
-</tr>
-<tr>
-  <td>💬 <strong>Ask me about</strong></td>
-  <td>Spring Boot · REST APIs · Docker · AWS EC2 · MySQL</td>
-</tr>
-<tr>
-  <td>📫 <strong>Reach me at</strong></td>
-  <td>ayushparadkar4@gmail.com</td>
-</tr>
-<tr>
-  <td>⚡ <strong>Fun fact</strong></td>
-  <td>I debug production at 2AM and still love it 😄</td>
-</tr>
-</table>
-
+  <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/right_now.svg?v=1.0.4" alt="Aayush's Status Dashboard" width="800" />
 </div>
 
 ---

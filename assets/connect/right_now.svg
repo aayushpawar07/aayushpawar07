@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" fill="none">
+  <style>
+    /* Premium Font Stack */
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    
+    /* Animations */
+    @keyframes pulseGlow {
+      0% { filter: drop-shadow(0 0 2px rgba(139, 92, 246, 0.4)); }
+      50% { filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.8)); }
+      100% { filter: drop-shadow(0 0 2px rgba(139, 92, 246, 0.4)); }
+    }
+    
+    @keyframes leafFloat {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-1.5px) rotate(2deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+    
+    @keyframes planeFly {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(1.5px, -1.5px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    /* Core Styles */
+    .card-bg {
+      fill: #0B0F19;
+      stroke: url(#card-border-grad);
+      stroke-width: 1.5;
+    }
+    
+    /* Glassmorphic Grid Cards */
+    .grid-cell {
+      fill: #111622;
+      stroke: #21262D;
+      stroke-width: 1.2;
+      rx: 12px;
+      transition: all 0.3s ease;
+    }
+    
+    .grid-cell:hover {
+      fill: #151B2B;
+      stroke: #30363D;
+    }
+    
+    /* Typography */
+    .section-title {
+      font-size: 15px;
+      font-weight: 800;
+      fill: #FFFFFF;
+      letter-spacing: 1.5px;
+    }
+    
+    .section-subtitle {
+      font-size: 10px;
+      font-weight: 600;
+      fill: #58A6FF;
+      letter-spacing: 2px;
+    }
+    
+    .label-title {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+    }
+    
+    .val-text {
+      font-size: 12px;
+      font-weight: 600;
+      fill: #C9D1D9;
+    }
+    
+    .val-highlight {
+      font-size: 12px;
+      font-weight: 700;
+      fill: #E6EDF0;
+    }
+
+    /* Interactive Icon Containers */
+    .icon-box {
+      rx: 10px;
+      stroke-width: 1;
+      stroke-opacity: 0.25;
+    }
+    
+    /* Animation Classes */
+    .anim-pulse { animation: pulseGlow 3s infinite ease-in-out; }
+    .anim-float { transform-origin: center; animation: leafFloat 4s infinite ease-in-out; }
+    .anim-fly { transform-origin: center; animation: planeFly 3s infinite ease-in-out; }
+  </style>
+
+  <defs>
+    <!-- Outer Card Border Gradient -->
+    <linearGradient id="card-border-grad" x1="0" y1="0" x2="800" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#00f2fe" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Diagonal Blueprint Dot Grid -->
+    <pattern id="dot-pattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#8B949E" opacity="0.08" />
+    </pattern>
+
+    <!-- Glowing Backdrops -->
+    <radialGradient id="glow-purple" cx="10%" cy="10%" r="45%">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#6C63FF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-cyan" cx="90%" cy="90%" r="45%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Icon Boxes Gradients -->
+    <linearGradient id="grad-purple" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.03" />
+    </linearGradient>
+    <linearGradient id="grad-green" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.03" />
+    </linearGradient>
+    <linearGradient id="grad-pink" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F43F5E" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0.03" />
+    </linearGradient>
+    <linearGradient id="grad-amber" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.03" />
+    </linearGradient>
+    <linearGradient id="grad-cyan" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06B6D4" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.03" />
+    </linearGradient>
+    <linearGradient id="grad-yellow" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBBF24" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="0.03" />
+    </linearGradient>
+  </defs>
+
+  <!-- ==================== BACKGROUND ==================== -->
+  <rect x="1" y="1" width="798" height="338" rx="16" class="card-bg" />
+  <rect x="1" y="1" width="798" height="338" rx="16" fill="url(#dot-pattern)" />
+  <rect x="1" y="1" width="798" height="338" rx="16" fill="url(#glow-purple)" />
+  <rect x="1" y="1" width="798" height="338" rx="16" fill="url(#glow-cyan)" />
+
+  <!-- ==================== HEADER ==================== -->
+  <g class="font-sans" transform="translate(30, 25)">
+    <!-- High-Tech Glowing Pulse Target -->
+    <circle cx="12" cy="15" r="10" fill="#6C63FF" fill-opacity="0.15" class="anim-pulse" />
+    <circle cx="12" cy="15" r="6" fill="#6C63FF" fill-opacity="0.4" />
+    <circle cx="12" cy="15" r="2.5" fill="#6C63FF" />
+    
+    <!-- Header Labels -->
+    <text x="32" y="16" class="section-title">CURRENT STATUS</text>
+    <text x="32" y="27" class="section-subtitle">🎯 REAL-TIME PROFILE INDEX</text>
+
+    <!-- Right Side Decorative Lines -->
+    <line x1="680" y1="15" x2="740" y2="15" stroke="#30363D" stroke-width="1.5" stroke-linecap="round" />
+    <circle cx="674" cy="15" r="2" fill="#6C63FF" />
+  </g>
+
+  <!-- ==================== 2x3 DASHBOARD GRID ==================== -->
+  <g class="font-sans">
+    
+    <!-- ─── CARD 1: WORKING ON (Translate: 24, 72) ─── -->
+    <g transform="translate(24, 72)">
+      <rect width="364" height="74" class="grid-cell" />
+      <!-- Left Accent Bar -->
+      <path d="M 0 16 A 4 4 0 0 1 4 12 L 4 62 A 4 4 0 0 1 0 58 Z" fill="#8B5CF6" />
+      
+      <!-- Icon Container -->
+      <rect x="14" y="17" width="40" height="40" fill="url(#grad-purple)" stroke="#8B5CF6" class="icon-box" />
+      <!-- Telescope Icon -->
+      <g transform="translate(20, 23)" stroke="#8B5CF6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 18 L7 13" />
+        <path d="M7 13 L18 2 M10 16 L21 5 M18 2 L21 5 M7 13 L10 16" fill="#8B5CF6" fill-opacity="0.1" />
+        <path d="M4 20 L2 18" />
+        <path d="M9 15 L5 21" />
+        <path d="M11 13 L15 21" />
+      </g>
+      
+      <!-- Live Indicator (Blinking Signal) -->
+      <circle cx="346" cy="18" r="4.5" fill="#10B981" />
+      <circle cx="346" cy="18" r="4.5" fill="#10B981" opacity="0.6">
+        <animate attributeName="r" values="4.5;9;4.5" dur="2.2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+
+      <!-- Labels -->
+      <text x="68" y="29" class="label-title" fill="#8B5CF6">🔭 WORKING ON</text>
+      <text x="68" y="49" class="val-highlight">Scalable Microservices @ Cloud Nexus</text>
+    </g>
+
+    <!-- ─── CARD 2: LEARNING (Translate: 412, 72) ─── -->
+    <g transform="translate(412, 72)">
+      <rect width="364" height="74" class="grid-cell" />
+      <path d="M 0 16 A 4 4 0 0 1 4 12 L 4 62 A 4 4 0 0 1 0 58 Z" fill="#10B981" />
+      
+      <rect x="14" y="17" width="40" height="40" fill="url(#grad-green)" stroke="#10B981" class="icon-box" />
+      <!-- Leaf Sprout Icon -->
+      <g class="anim-float" transform="translate(22, 23)" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 20V8c0-3 3-5 6-5" />
+        <path d="M12 11c0-2-2-4-6-4 4 0 6 2 6 4z" fill="#10B981" fill-opacity="0.2" />
+        <path d="M12 15c0-2 2-4 6-4-6 0-6 2-6 4z" fill="#10B981" fill-opacity="0.2" />
+      </g>
+
+      <text x="68" y="29" class="label-title" fill="#10B981">🌱 CURRENTLY LEARNING</text>
+      <text x="68" y="49" class="val-text">System Design · Kubernetes · Redis · Kafka</text>
+    </g>
+
+    <!-- ─── CARD 3: LOOKING FOR (Translate: 24, 161) ─── -->
+    <g transform="translate(24, 161)">
+      <rect width="364" height="74" class="grid-cell" />
+      <path d="M 0 16 A 4 4 0 0 1 4 12 L 4 62 A 4 4 0 0 1 0 58 Z" fill="#F43F5E" />
+      
+      <rect x="14" y="17" width="40" height="40" fill="url(#grad-pink)" stroke="#F43F5E" class="icon-box" />
+      <!-- Teamwork / Collaborate Icon -->
+      <g transform="translate(20, 23)" stroke="#F43F5E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="14" cy="5" r="3" fill="#F43F5E" fill-opacity="0.2" />
+        <circle cx="6" cy="16" r="3" fill="#F43F5E" fill-opacity="0.2" />
+        <circle cx="22" cy="16" r="3" fill="#F43F5E" fill-opacity="0.2" />
+        <path d="M14 8v4M6 13l5-5M22 13l-5-5" stroke-dasharray="1.5 1.5" />
+        <path d="M9 16h10" />
+      </g>
+
+      <text x="68" y="29" class="label-title" fill="#F43F5E">🤝 OPEN TO COLLABORATE</text>
+      <text x="68" y="49" class="val-text">Java Backend Collabs · Open Source · Hackathons</text>
+    </g>
+
+    <!-- ─── CARD 4: ASK ME ABOUT (Translate: 412, 161) ─── -->
+    <g transform="translate(412, 161)">
+      <rect width="364" height="74" class="grid-cell" />
+      <path d="M 0 16 A 4 4 0 0 1 4 12 L 4 62 A 4 4 0 0 1 0 58 Z" fill="#F59E0B" />
+      
+      <rect x="14" y="17" width="40" height="40" fill="url(#grad-amber)" stroke="#F59E0B" class="icon-box" />
+      <!-- Speech Bubbles Icon -->
+      <g transform="translate(21, 23)" stroke="#F59E0B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17 9.5a6.5 6.5 0 0 1-.7 3a6.6 6.6 0 0 1-5.9 3.6 6.5 6.5 0 0 1-3-.7L3 17l1.5-4.4a6.5 6.5 0 0 1-.7-3 6.6 6.6 0 0 1 3.6-5.9 6.5 6.5 0 0 1 3-.7h.4a6.6 6.6 0 0 1 6.2 6.2v.3z" fill="#F59E0B" fill-opacity="0.15" />
+      </g>
+
+      <text x="68" y="29" class="label-title" fill="#F59E0B">💬 ASK ME ABOUT</text>
+      <text x="68" y="49" class="val-text">Spring Boot · REST APIs · Docker · AWS EC2 · MySQL</text>
+    </g>
+
+    <!-- ─── CARD 5: REACH ME AT (Translate: 24, 250) ─── -->
+    <g transform="translate(24, 250)">
+      <rect width="364" height="74" class="grid-cell" />
+      <path d="M 0 16 A 4 4 0 0 1 4 12 L 4 62 A 4 4 0 0 1 0 58 Z" fill="#06B6D4" />
+      
+      <rect x="14" y="17" width="40" height="40" fill="url(#grad-cyan)" stroke="#06B6D4" class="icon-box" />
+      <!-- Flying Paper Airplane -->
+      <g class="anim-fly" transform="translate(21, 23)" stroke="#06B6D4" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 1L9 11M19 1l-6 17-3-8-8-3 17-6z" fill="#06B6D4" fill-opacity="0.15" />
+      </g>
+
+      <text x="68" y="29" class="label-title" fill="#06B6D4">📫 REACH ME AT</text>
+      <!-- Mono-font email for high professional readability -->
+      <text x="68" y="49" class="font-sans" font-size="12" font-weight="700" fill="#00f2fe">ayushparadkar4@gmail.com</text>
+    </g>
+
+    <!-- ─── CARD 6: FUN FACT (Translate: 412, 250) ─── -->
+    <g transform="translate(412, 250)">
+      <rect width="364" height="74" class="grid-cell" />
+      <path d="M 0 16 A 4 4 0 0 1 4 12 L 4 62 A 4 4 0 0 1 0 58 Z" fill="#FBBF24" />
+      
+      <rect x="14" y="17" width="40" height="40" fill="url(#grad-yellow)" stroke="#FBBF24" class="icon-box" />
+      <!-- Lightning Bolt Icon -->
+      <g transform="translate(22, 22)" stroke="#FBBF24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 1 L2 11 L9 11 L7 19 L16 9 L9 9 Z" fill="#FBBF24" fill-opacity="0.2" />
+      </g>
+
+      <text x="68" y="29" class="label-title" fill="#FBBF24">⚡ FUN FACT</text>
+      <text x="68" y="49" class="val-text">I debug production at 2AM and still love it 😄</text>
+    </g>
+
+  </g>
+</svg>
