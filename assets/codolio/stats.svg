@@ -129,7 +129,7 @@
       </rect>
       
       <!-- Breakdown Details -->
-      <text x="0" y="38" class="label-desc">Easy: <tspan fill="#00f2fe" font-weight="bold">402</tspan> &nbsp;•&nbsp; Medium: <tspan fill="#FFA116" font-weight="bold">93</tspan> &nbsp;•&nbsp; Hard: <tspan fill="#FF6B6B" font-weight="bold">0</tspan></text>
+      <text x="0" y="38" class="label-desc">Easy: <tspan fill="#00f2fe" font-weight="bold">402</tspan> &#160;•&#160; Medium: <tspan fill="#FFA116" font-weight="bold">93</tspan> &#160;•&#160; Hard: <tspan fill="#FF6B6B" font-weight="bold">0</tspan></text>
     </g>
 
     <!-- GeeksforGeeks Platform Card -->
@@ -145,7 +145,7 @@
       </rect>
       
       <!-- Breakdown Details -->
-      <text x="0" y="38" class="label-desc">Fundamentals: <tspan fill="#22c55e" font-weight="bold">87</tspan> &nbsp;•&nbsp; Practice &amp; Contests (GFG)</text>
+      <text x="0" y="38" class="label-desc">Fundamentals: <tspan fill="#22c55e" font-weight="bold">87</tspan> &#160;•&#160; Practice &amp; Contests (GFG)</text>
     </g>
 
     <!-- HackerRank Platform Card -->
@@ -161,7 +161,7 @@
       </rect>
       
       <!-- Breakdown Details -->
-      <text x="0" y="38" class="label-desc">Fundamentals: <tspan fill="#00f2fe" font-weight="bold">20</tspan> &nbsp;•&nbsp; Algorithms &amp; DS Certifications</text>
+      <text x="0" y="38" class="label-desc">Fundamentals: <tspan fill="#00f2fe" font-weight="bold">20</tspan> &#160;•&#160; Algorithms &amp; DS Certifications</text>
     </g>
   </g>
 </svg>
