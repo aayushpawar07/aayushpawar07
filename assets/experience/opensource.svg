@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="180" viewBox="0 0 340 180" fill="none">
+  <style>
+    .card-bg { fill: #0D1117; stroke: url(#border-grad); stroke-width: 1.5; }
+    .title { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 14px; fill: #FFFFFF; letter-spacing: 1px; }
+    .sub { font-family: 'Fira Code', monospace; font-weight: 600; font-size: 9px; fill: #FF6B6B; letter-spacing: 0.5px; }
+    .glow-orange { filter: url(#glow-o); }
+    .glow-red { filter: url(#glow-r); }
+  </style>
+
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-o" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-r" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0" y1="0" x2="340" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFA116" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#30363D" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#FF6B6B" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Icon Gradient -->
+    <linearGradient id="icon-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFA116" />
+      <stop offset="100%" stop-color="#FF6B6B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="1" y="1" width="338" height="178" rx="12" class="card-bg" />
+
+  <!-- Technical Background Grid -->
+  <g opacity="0.06" stroke="#FFFFFF" stroke-width="1">
+    <path d="M 0,20 L 340,20 M 0,40 L 340,40 M 0,60 L 340,60 M 0,80 L 340,80 M 0,100 L 340,100 M 0,120 L 340,120 M 0,140 L 340,140 M 0,160 L 340,160" />
+    <path d="M 40,0 L 40,180 M 80,0 L 80,180 M 120,0 L 120,180 M 160,0 L 160,180 M 200,0 L 200,180 M 240,0 L 240,180 M 280,0 L 280,180" />
+  </g>
+
+  <!-- Creative Git Activity / Open Source Illustration -->
+  <g transform="translate(25, 20)">
+    <!-- Tiny Contribution Grid representation (GitHub squares) -->
+    <g transform="translate(0, 10)">
+      <rect x="0" y="0" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <rect x="12" y="0" width="8" height="8" rx="1.5" fill="#FF6B6B" fill-opacity="0.6" stroke="#FF6B6B" stroke-width="0.5" />
+      <rect x="24" y="0" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <rect x="36" y="0" width="8" height="8" rx="1.5" fill="#FFA116" fill-opacity="0.8" stroke="#FFA116" stroke-width="0.5" />
+
+      <rect x="0" y="12" width="8" height="8" rx="1.5" fill="#FFA116" fill-opacity="0.4" stroke="#FFA116" stroke-width="0.5" />
+      <rect x="12" y="12" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <rect x="24" y="12" width="8" height="8" rx="1.5" fill="#FF6B6B" stroke="#FF6B6B" stroke-width="0.5" class="glow-red" />
+      <rect x="36" y="12" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+
+      <rect x="0" y="24" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <rect x="12" y="24" width="8" height="8" rx="1.5" fill="#FFA116" stroke="#FFA116" stroke-width="0.5" class="glow-orange" />
+      <rect x="24" y="24" width="8" height="8" rx="1.5" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <rect x="36" y="24" width="8" height="8" rx="1.5" fill="#FF6B6B" fill-opacity="0.4" stroke="#FF6B6B" stroke-width="0.5" />
+    </g>
+
+    <!-- Git Branch Line connecting to a launching Rocket -->
+    <path d="M 60,35 C 75,35 85,15 105,15 L 170,15" stroke="#30363D" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 60,35 C 75,35 85,55 105,55 L 170,55" stroke="#FF6B6B" stroke-width="1.5" stroke-linecap="round" />
+    <circle cx="105" cy="55" r="3" fill="#1F2937" stroke="#FF6B6B" stroke-width="1.5" />
+    <circle cx="135" cy="15" r="3" fill="#1F2937" stroke="#30363D" stroke-width="1.5" />
+
+    <!-- Rocket Launching Vector -->
+    <g transform="translate(195, 0)">
+      <circle cx="45" cy="35" r="25" fill="#FFA116" fill-opacity="0.1" class="glow-orange" />
+      <!-- Rocket Body -->
+      <path d="M 37,20 C 37,20 40,12 45,12 C 50,12 53,20 53,20 L 55,42 C 55,42 50,47 45,47 C 40,47 35,42 35,42 Z" fill="url(#icon-grad)" stroke="#FFFFFF" stroke-width="0.8" class="glow-orange" />
+      <!-- Fire flame -->
+      <path d="M 41,48 L 45,58 L 49,48 Z" fill="#FFA116" opacity="0.9" class="glow-orange" />
+      <path d="M 43,48 L 45,54 L 47,48 Z" fill="#FF5F56" />
+      <!-- Window -->
+      <circle cx="45" cy="26" r="3" fill="#111827" stroke="#FFFFFF" stroke-width="0.8" />
+    </g>
+  </g>
+
+  <!-- Title & Description Section -->
+  <g transform="translate(25, 125)">
+    <text class="title" x="0" y="0">🚀 OPEN SOURCE &amp; PROJECTS</text>
+    <text class="sub" x="0" y="16">FULL-STACK DEVELOPER &amp; CREATOR</text>
+    <line x1="0" y1="26" x2="290" y2="26" stroke="#30363D" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+</svg>

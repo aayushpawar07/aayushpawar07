@@ -80,19 +80,6 @@
 </td>
 </tr>
 </table>
-
----
-
-<!-- ═══════════════════════ TROPHIES ═══════════════════════ -->
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=aayushpawar07&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
 ---
 
 <!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
@@ -139,12 +126,13 @@
 ## 💼 Experience
 
 <div align="center">
-<table width="90%">
+<table width="95%">
 <tr>
   <td width="50%" valign="top">
-
-  <h3 align="center">💻 Cloud Nexus</h3>
-  <p align="center"><strong>Java Developer</strong> · Current 🟢</p>
+    <div align="center">
+      <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/experience/cloudnexus.svg" width="100%" alt="Cloud Nexus" />
+    </div>
+    <br/>
 
   - ✅ Microservices with **Spring Boot**
   - ✅ **Spring Security** · JWT · Role-Based Auth
@@ -154,9 +142,10 @@
 
   </td>
   <td width="50%" valign="top">
-
-  <h3 align="center">🚀 Open Source & Projects</h3>
-  <p align="center"><strong>Full-Stack Developer</strong> · Ongoing 🟣</p>
+    <div align="center">
+      <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/experience/opensource.svg" width="100%" alt="Open Source & Projects" />
+    </div>
+    <br/>
 
   - ✅ **AssessHub** — MCQ platform on AWS EC2
   - ✅ **Hotel Booking** — Spring Boot + React

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="180" viewBox="0 0 340 180" fill="none">
+  <style>
+    .card-bg { fill: #0D1117; stroke: url(#border-grad); stroke-width: 1.5; }
+    .title { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 14px; fill: #FFFFFF; letter-spacing: 1px; }
+    .sub { font-family: 'Fira Code', monospace; font-weight: 600; font-size: 9px; fill: #22c55e; letter-spacing: 0.5px; }
+    .glow-purple { filter: url(#glow-p); }
+    .glow-green { filter: url(#glow-g); }
+  </style>
+
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-p" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-g" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0" y1="0" x2="340" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#30363D" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Icon Gradient -->
+    <linearGradient id="icon-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6C63FF" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="1" y="1" width="338" height="178" rx="12" class="card-bg" />
+
+  <!-- Technical Background Grid -->
+  <g opacity="0.06" stroke="#FFFFFF" stroke-width="1">
+    <path d="M 0,20 L 340,20 M 0,40 L 340,40 M 0,60 L 340,60 M 0,80 L 340,80 M 0,100 L 340,100 M 0,120 L 340,120 M 0,140 L 340,140 M 0,160 L 340,160" />
+    <path d="M 40,0 L 40,180 M 80,0 L 80,180 M 120,0 L 120,180 M 160,0 L 160,180 M 200,0 L 200,180 M 240,0 L 240,180 M 280,0 L 280,180" />
+  </g>
+
+  <!-- Enterprise Architecture Diagram Illustration -->
+  <g transform="translate(25, 20)">
+    <!-- Microservices Boxes -->
+    <!-- Service Gateway -->
+    <rect x="0" y="25" width="60" height="24" rx="4" fill="#161B22" stroke="#6C63FF" stroke-width="1" class="glow-purple" />
+    <text x="30" y="39" font-family="'Inter', sans-serif" font-weight="700" font-size="7" fill="#FFFFFF" text-anchor="middle">API Gateway</text>
+
+    <!-- Connection Line -->
+    <path d="M 60,37 L 105,37" stroke="#30363D" stroke-width="1.5" stroke-dasharray="3,3" />
+
+    <!-- Auth Service -->
+    <rect x="105" y="10" width="65" height="24" rx="4" fill="#161B22" stroke="#22c55e" stroke-width="1" class="glow-green" />
+    <text x="137.5" y="24" font-family="'Inter', sans-serif" font-weight="700" font-size="7" fill="#FFFFFF" text-anchor="middle">Spring Security</text>
+
+    <!-- Core Service -->
+    <rect x="105" y="42" width="65" height="24" rx="4" fill="#161B22" stroke="#6C63FF" stroke-width="1" />
+    <text x="137.5" y="56" font-family="'Inter', sans-serif" font-weight="700" font-size="7" fill="#FFFFFF" text-anchor="middle">Core Backend</text>
+
+    <!-- Connection Line to Database -->
+    <path d="M 170,22 L 210,37 M 170,54 L 210,37" stroke="#30363D" stroke-width="1.5" />
+
+    <!-- Database Hub -->
+    <g transform="translate(210, 15)">
+      <!-- Cylinder Database shape -->
+      <path d="M 0,10 C 0,0 40,0 40,10 L 40,35 C 40,45 0,45 0,35 Z" fill="url(#icon-grad)" opacity="0.8" class="glow-purple" />
+      <ellipse cx="20" cy="10" rx="20" ry="6" fill="#1F2937" stroke="#FFFFFF" stroke-width="0.8" />
+      <ellipse cx="20" cy="20" rx="20" ry="5" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.6" />
+      <ellipse cx="20" cy="30" rx="20" ry="5" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.6" />
+      <text x="20" y="28" font-family="'Fira Code', monospace" font-weight="800" font-size="7" fill="#FFFFFF" text-anchor="middle">DB</text>
+    </g>
+  </g>
+
+  <!-- Title & Description Section -->
+  <g transform="translate(25, 125)">
+    <text class="title" x="0" y="0">💻 CLOUD NEXUS</text>
+    <text class="sub" x="0" y="16">PROFESSIONAL JAVA DEVELOPER ROLE</text>
+    <line x1="0" y1="26" x2="290" y2="26" stroke="#30363D" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+</svg>
