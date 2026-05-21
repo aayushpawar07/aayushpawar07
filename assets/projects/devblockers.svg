@@ -1,35 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="120" viewBox="0 0 450 120" fill="none">
-  <!-- Card Outline & Background -->
-  <rect x="0.5" y="0.5" width="449" height="119" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
-  
-  <!-- Title Repository Icon -->
-  <g transform="translate(16, 16)">
-    <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z" fill="#6C63FF"/>
-  </g>
-  
-  <!-- Title / Repo Name -->
-  <text x="38" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#6C63FF">DevBlockers</text>
-  
-  <!-- Description -->
-  <text x="16" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Microservices-based Organization &amp; Team Management Platform.</text>
-  <text x="16" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Features Spring Boot, Java, JWT security, and MySQL migrations.</text>
-  
-  <!-- Footer -->
-  <!-- Language Dot (Java) -->
-  <circle cx="22" cy="98" r="6" fill="#b07219" />
-  <!-- Language Text -->
-  <text x="34" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Java</text>
-  
-  <!-- Tech Badges / Extra Tags -->
-  <rect x="75" y="88" width="50" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-  <text x="100" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">MySQL</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="440" viewBox="0 0 380 440" fill="none">
+  <style>
+    .card-bg { fill: #0D1117; stroke: url(#card-grad); stroke-width: 1.5; }
+    .title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; fill: #FFFFFF; letter-spacing: 0.5px; }
+    .tech { font-family: 'Fira Code', monospace; font-weight: 600; font-size: 11px; fill: #a855f7; letter-spacing: 0.5px; }
+    .desc { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 12px; fill: #8B949E; }
+    .glow-purple { filter: url(#glow-p); }
+    .glow-cyan { filter: url(#glow-c); }
+    .glow-green { filter: url(#glow-g); }
+  </style>
 
-  <rect x="133" y="88" width="80" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-  <text x="173" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">Microservices</text>
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-p" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-c" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-g" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
 
-  <!-- Stars -->
-  <g transform="translate(390, 90)">
-    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z" fill="#8B949E"/>
+    <!-- Card Outer Gradient -->
+    <linearGradient id="card-grad" x1="0" y1="0" x2="380" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a855f7" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#30363D" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#6C63FF" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Node Gradients -->
+    <linearGradient id="gate-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6C63FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Rect -->
+  <rect x="1" y="1" width="378" height="438" rx="12" class="card-bg" />
+
+  <!-- Header Section -->
+  <g transform="translate(190, 45)">
+    <text text-anchor="middle" class="title">👥 DevBlockers Team Hub</text>
   </g>
-  <text x="410" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">1</text>
+
+  <!-- ==================== ILLUSTRATION AREA ==================== -->
+  <g transform="translate(0, 75)">
+    <!-- Base grid / background lines -->
+    <circle cx="190" cy="105" r="85" stroke="#1F2937" stroke-width="1" stroke-dasharray="4 6" />
+    <circle cx="190" cy="105" r="50" stroke="#1F2937" stroke-width="1" stroke-dasharray="2 4" />
+
+    <!-- Connecting network lines -->
+    <!-- Gateway to Admin Node (Cyan) -->
+    <line x1="190" y1="105" x2="105" y2="55" stroke="#00d2ff" stroke-width="2.5" class="glow-cyan" />
+    <!-- Gateway to Solutions Node (Orange) -->
+    <line x1="190" y1="105" x2="275" y2="55" stroke="#FFA116" stroke-width="2.5" opacity="0.8" />
+    <!-- Gateway to Notifications Node (Green) -->
+    <line x1="190" y1="105" x2="190" y2="175" stroke="#22c55e" stroke-width="2.5" class="glow-green" />
+
+    <!-- CENTRAL NODE: API Gateway Hub -->
+    <circle cx="190" cy="105" r="24" fill="url(#gate-grad)" class="glow-purple" />
+    <!-- Lock details inside Gateway (Spring Security) -->
+    <path d="M190 95.5c-2.4 0-4.3 1.9-4.3 4.3v3.5h-1.8c-.9 0-1.7.8-1.7 1.7v8.5c0 .9.8 1.7 1.7 1.7h12.1c1 0 1.7-.8 1.7-1.7v-8.5c0-.9-.7-1.7-1.7-1.7H194.3v-3.5c0-2.4-1.9-4.3-4.3-4.3zm0 1.7c1.4 0 2.5 1.1 2.5 2.6v3.5h-5v-3.5c0-1.5 1.1-2.6 2.5-2.6z" fill="#FFFFFF" />
+
+    <!-- NODE A: Admin Service (Cyan) -->
+    <g transform="translate(105, 55)">
+      <circle r="18" fill="#0D1117" stroke="#00d2ff" stroke-width="2" class="glow-cyan" />
+      <!-- Admin gear layout -->
+      <path d="M-6,-2 L-6,2 L-2,6 L2,6 L6,2 L6,-2 L2,-6 L-2,-6 Z" fill="#00d2ff" opacity="0.3" />
+      <circle r="6" fill="#00d2ff" />
+      <circle r="3" fill="#0D1117" />
+      <!-- Node Label -->
+      <rect x="-30" y="-32" width="60" height="10" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <text y="-25" font-family="'Inter', sans-serif" font-weight="800" font-size="6" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.2">ADMIN SVC</text>
+    </g>
+
+    <!-- NODE B: Solutions Service (Orange) -->
+    <g transform="translate(275, 55)">
+      <circle r="18" fill="#0D1117" stroke="#FFA116" stroke-width="2" />
+      <!-- Checklist checkmark layout -->
+      <circle r="7" fill="#FFA116" fill-opacity="0.2" />
+      <path d="M-4,0 L-1,3 L4,-2" stroke="#FFA116" stroke-width="2" stroke-linecap="round" fill="none" />
+      <!-- Node Label -->
+      <rect x="-32" y="-32" width="64" height="10" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <text y="-25" font-family="'Inter', sans-serif" font-weight="800" font-size="6" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.2">TEAM ALLOC</text>
+    </g>
+
+    <!-- NODE C: Notifications Service (Green) -->
+    <g transform="translate(190, 175)">
+      <circle r="18" fill="#0D1117" stroke="#22c55e" stroke-width="2" class="glow-green" />
+      <!-- Mail Envelope layout -->
+      <rect x="-8" y="-6" width="16" height="12" rx="2" fill="#22c55e" fill-opacity="0.2" stroke="#22c55e" stroke-width="1.2" />
+      <path d="M-8,-4 L0,2 L8,-4" stroke="#22c55e" stroke-width="1.2" fill="none" />
+      <!-- Node Label -->
+      <rect x="-30" y="22" width="60" height="10" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <text y="29" font-family="'Inter', sans-serif" font-weight="800" font-size="6" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.2">NOTIF SVC</text>
+    </g>
+    
+    <!-- Data pulse dots on connection paths -->
+    <circle cx="160" cy="87" r="3.5" fill="#00d2ff" class="glow-cyan" />
+    <circle cx="230" cy="82" r="3.5" fill="#FFA116" />
+    <circle cx="190" cy="140" r="3.5" fill="#22c55e" class="glow-green" />
+
+    <!-- Sparkles -->
+    <circle cx="70" cy="130" r="2.5" fill="#a855f7" class="glow-purple" />
+    <circle cx="310" cy="140" r="3" fill="#00d2ff" class="glow-cyan" />
+  </g>
+
+  <!-- ==================== TEXT & DETAILS ==================== -->
+  <!-- Tech Stack -->
+  <g transform="translate(190, 325)">
+    <text text-anchor="middle" class="tech">Spring Boot • Microservices • JWT</text>
+  </g>
+
+  <!-- Description Body -->
+  <g transform="translate(190, 355)" font-size="12" fill="#8B949E">
+    <text text-anchor="middle" class="desc">Microservices Organization management.</text>
+    <text text-anchor="middle" class="desc" y="20">Secure multi-tenant workspace team allocator.</text>
+    <text text-anchor="middle" class="desc" y="40">Decoupled routing with high-speed token parsing.</text>
+  </g>
 </svg>

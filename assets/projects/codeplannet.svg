@@ -1,35 +1,142 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="120" viewBox="0 0 450 120" fill="none">
-  <!-- Card Outline & Background -->
-  <rect x="0.5" y="0.5" width="449" height="119" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
-  
-  <!-- Title Repository Icon -->
-  <g transform="translate(16, 16)">
-    <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z" fill="#6C63FF"/>
-  </g>
-  
-  <!-- Title / Repo Name -->
-  <text x="38" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#6C63FF">CodePlannet</text>
-  
-  <!-- Description -->
-  <text x="16" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Full-stack role-based MCQ Testing &amp; Assessment Platform.</text>
-  <text x="16" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Features Spring Boot, React, JWT, 2FA OTP, and AWS EC2.</text>
-  
-  <!-- Footer -->
-  <!-- Language Dot (Java) -->
-  <circle cx="22" cy="98" r="6" fill="#b07219" />
-  <!-- Language Text -->
-  <text x="34" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Java</text>
-  
-  <!-- Tech Badges / Extra Tags -->
-  <rect x="75" y="88" width="50" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-  <text x="100" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">React</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="440" viewBox="0 0 380 440" fill="none">
+  <style>
+    .card-bg { fill: #0D1117; stroke: url(#card-grad); stroke-width: 1.5; }
+    .title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; fill: #FFFFFF; letter-spacing: 0.5px; }
+    .tech { font-family: 'Fira Code', monospace; font-weight: 600; font-size: 11px; fill: #6C63FF; letter-spacing: 0.5px; }
+    .desc { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 12px; fill: #8B949E; }
+    .glow-cyan { filter: url(#glow-c); }
+    .glow-purple { filter: url(#glow-p); }
+    .glow-yellow { filter: url(#glow-y); }
+  </style>
 
-  <rect x="133" y="88" width="70" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-  <text x="168" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">Spring Boot</text>
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-c" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-p" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-y" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
 
-  <!-- Stars -->
-  <g transform="translate(390, 90)">
-    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z" fill="#8B949E"/>
+    <!-- Card Outer Gradient -->
+    <linearGradient id="card-grad" x1="0" y1="0" x2="380" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#30363D" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#FF6B6B" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- UI Gradients -->
+    <linearGradient id="screen-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F2937" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="shield-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFA116" />
+      <stop offset="100%" stop-color="#FF6B6B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Rect -->
+  <rect x="1" y="1" width="378" height="438" rx="12" class="card-bg" />
+
+  <!-- Header Section -->
+  <g transform="translate(190, 45)">
+    <text text-anchor="middle" class="title">🎯 AssessHub / CodePlannet</text>
   </g>
-  <text x="410" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">1</text>
+
+  <!-- ==================== ILLUSTRATION AREA ==================== -->
+  <g transform="translate(0, 75)">
+    <!-- Laptop Stand/Base -->
+    <path d="M70,185 L310,185 L320,195 L60,195 Z" fill="#24292E" stroke="#30363D" stroke-width="1.5" />
+    <rect x="160" y="180" width="60" height="8" fill="#1F2428" />
+    <path d="M120,195 L260,195" stroke="#444D56" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Laptop Lid / Outer Frame -->
+    <rect x="80" y="30" width="220" height="150" rx="8" fill="#2F363D" stroke="#444D56" stroke-width="1.5" />
+    <!-- Screen Viewport -->
+    <rect x="88" y="38" width="204" height="134" rx="4" fill="url(#screen-grad)" />
+
+    <!-- Screen UI Elements (Mock Test Platform) -->
+    <!-- Sidebar -->
+    <rect x="94" y="44" width="40" height="122" rx="2" fill="#161B22" />
+    <circle cx="114" cy="54" r="6" fill="#6C63FF" opacity="0.6" />
+    <rect x="98" y="66" width="32" height="4" rx="1" fill="#30363D" />
+    <rect x="98" y="74" width="32" height="4" rx="1" fill="#30363D" />
+    <rect x="98" y="82" width="32" height="4" rx="1" fill="#30363D" />
+
+    <!-- MCQ Quiz Header -->
+    <rect x="140" y="44" width="146" height="16" rx="3" fill="#161B22" />
+    <text x="146" y="55" font-family="'Inter', sans-serif" font-weight="700" font-size="7" fill="#6C63FF">MCQ Platform Assessment</text>
+    <rect x="250" y="48" width="30" height="8" rx="2" fill="#22c55e" fill-opacity="0.2" />
+    <circle cx="254" cy="52" r="2" fill="#22c55e" />
+
+    <!-- Question Box -->
+    <rect x="140" y="66" width="146" height="42" rx="3" fill="#161B22" />
+    <rect x="146" y="72" width="120" height="3" rx="1.5" fill="#8B949E" />
+    <rect x="146" y="79" width="100" height="3" rx="1.5" fill="#8B949E" />
+    <!-- Radio Choices -->
+    <circle cx="150" cy="91" r="3" fill="#1F2937" stroke="#30363D" stroke-width="1" />
+    <circle cx="150" cy="91" r="1.5" fill="#6C63FF" class="glow-purple" />
+    <rect x="158" y="89" width="50" height="3" rx="1.5" fill="#8B949E" />
+
+    <circle cx="150" cy="100" r="3" fill="#1F2937" stroke="#30363D" stroke-width="1" />
+    <rect x="158" y="98" width="65" height="3" rx="1.5" fill="#4f5b66" />
+
+    <!-- Circular Progress Dials (Grades) -->
+    <rect x="140" y="114" width="68" height="46" rx="3" fill="#161B22" />
+    <!-- Dial -->
+    <circle cx="174" cy="132" r="12" stroke="#1F2937" stroke-width="2.5" fill="none" />
+    <circle cx="174" cy="132" r="12" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-dasharray="75" stroke-dashoffset="20" stroke-linecap="round" class="glow-cyan" />
+    <text x="174" y="135" font-family="'Inter', sans-serif" font-weight="800" font-size="8" fill="#FFFFFF" text-anchor="middle">85%</text>
+    <text x="174" y="153" font-family="'Inter', sans-serif" font-weight="600" font-size="6" fill="#8B949E" text-anchor="middle">Pass Rate</text>
+
+    <!-- Extra UI Info Card -->
+    <rect x="214" y="114" width="72" height="46" rx="3" fill="#161B22" />
+    <rect x="220" y="122" width="45" height="3.5" rx="1.5" fill="#30363D" />
+    <rect x="220" y="130" width="30" height="3.5" rx="1.5" fill="#30363D" />
+    <rect x="220" y="138" width="55" height="3.5" rx="1.5" fill="#30363D" />
+    <rect x="220" y="146" width="40" height="3.5" rx="1.5" fill="#6C63FF" opacity="0.6" />
+
+    <!-- Glowing Security Shield Overlay (JWT/2FA) -->
+    <g transform="translate(265, 125)" class="glow-yellow">
+      <path d="M18 2.5 L6 7.5 L6 17 C6 24 12 28.5 18 31 C24 28.5 30 24 30 17 L30 7.5 Z" fill="url(#shield-grad)" />
+      <!-- Inner detail -->
+      <path d="M18 6 L10 9.3 L10 17 C10 22.3 14.5 25.8 18 27.8 L18 6 Z" fill="#FFFFFF" fill-opacity="0.25" />
+      <!-- Lock Icon inside shield -->
+      <path d="M18 11.5c-1.4 0-2.5 1.1-2.5 2.5v2h-1c-.5 0-1 .5-1 1v5c0 .5.5 1 1 1h7c.5 0 1-.5 1-1v-5c0-.5-.5-1-1-1h-1v-2c0-1.4-1.1-2.5-2.5-2.5zm0 1c.8 0 1.5.7 1.5 1.5v2h-3v-2c0-.8.7-1.5 1.5-1.5z" fill="#FFFFFF" />
+    </g>
+
+    <!-- Spark Elements -->
+    <path d="M50,40 L53,46 L60,47 L55,52 L56,58 L50,54 L44,58 L45,52 L40,47 L47,46 Z" fill="#6C63FF" opacity="0.2" class="glow-purple" />
+    <circle cx="310" cy="50" r="3" fill="#22c55e" class="glow-cyan" />
+    <circle cx="55" cy="130" r="2.5" fill="#FFA116" class="glow-yellow" />
+  </g>
+
+  <!-- ==================== TEXT & DETAILS ==================== -->
+  <!-- Tech Stack -->
+  <g transform="translate(190, 325)">
+    <text text-anchor="middle" class="tech">Spring Boot • React • JWT • AWS</text>
+  </g>
+
+  <!-- Description Body -->
+  <g transform="translate(190, 355)" font-size="12" fill="#8B949E">
+    <text text-anchor="middle" class="desc">Full-stack role-based MCQ Testing Platform.</text>
+    <text text-anchor="middle" class="desc" y="20">Engineered with secure 2FA and active grading.</text>
+    <text text-anchor="middle" class="desc" y="40">Deployed securely on cloud microservice infrastructure.</text>
+  </g>
 </svg>

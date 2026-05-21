@@ -1,38 +1,143 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="120" viewBox="0 0 450 120" fill="none">
-  <!-- Card Outline & Background -->
-  <rect x="0.5" y="0.5" width="449" height="119" rx="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
-  
-  <!-- Title Repository Icon -->
-  <g transform="translate(16, 16)">
-    <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z" fill="#6C63FF"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="440" viewBox="0 0 380 440" fill="none">
+  <style>
+    .card-bg { fill: #0D1117; stroke: url(#card-grad); stroke-width: 1.5; }
+    .title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; fill: #FFFFFF; letter-spacing: 0.5px; }
+    .tech { font-family: 'Fira Code', monospace; font-weight: 600; font-size: 11px; fill: #22c55e; letter-spacing: 0.5px; }
+    .desc { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 12px; fill: #8B949E; }
+    .glow-red { filter: url(#glow-r); }
+    .glow-green { filter: url(#glow-g); }
+    .glow-orange { filter: url(#glow-o); }
+  </style>
+
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-r" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-g" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-o" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Card Outer Gradient -->
+    <linearGradient id="card-grad" x1="0" y1="0" x2="380" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B6B" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#30363D" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- UI Gradients -->
+    <linearGradient id="phone-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F2937" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Rect -->
+  <rect x="1" y="1" width="378" height="438" rx="12" class="card-bg" />
+
+  <!-- Header Section -->
+  <g transform="translate(190, 45)">
+    <text text-anchor="middle" class="title">🍕 Food Delivery App</text>
   </g>
-  
-  <!-- Title / Repo Name -->
-  <text x="38" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#6C63FF">Food-Delivery-Website</text>
-  
-  <!-- Description -->
-  <text x="16" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Dynamic Food Ordering &amp; Delivery web application.</text>
-  <text x="16" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Engineered on the MERN stack with interactive dashboard.</text>
-  
-  <!-- Footer -->
-  <!-- Language Dot (JavaScript) -->
-  <circle cx="22" cy="98" r="6" fill="#f1e05a" />
-  <!-- Language Text -->
-  <text x="34" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">JavaScript</text>
-  
-  <!-- Tech Badges / Extra Tags -->
-  <rect x="105" y="88" width="50" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-  <text x="130" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">React</text>
 
-  <rect x="163" y="88" width="55" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-  <text x="190" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">NodeJS</text>
+  <!-- ==================== ILLUSTRATION AREA ==================== -->
+  <g transform="translate(0, 75)">
+    <!-- Base Ground / Road Line -->
+    <line x1="50" y1="185" x2="330" y2="185" stroke="#4B5563" stroke-width="2" stroke-linecap="round" />
+    <!-- Dashed Speed trails -->
+    <line x1="280" y1="175" x2="310" y2="175" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="3 3" class="glow-red" />
+    <line x1="60" y1="175" x2="90" y2="175" stroke="#22c55e" stroke-width="2" stroke-dasharray="3 3" class="glow-green" />
 
-  <rect x="226" y="88" width="55" height="18" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-  <text x="253" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" fill="#8B949E" text-anchor="middle">MERN</text>
+    <!-- Smartphone Frame -->
+    <rect x="145" y="30" width="90" height="145" rx="10" fill="#242933" stroke="#4B5563" stroke-width="1.5" />
+    <!-- Smartphone Screen -->
+    <rect x="150" y="36" width="80" height="133" rx="6" fill="url(#phone-grad)" />
 
-  <!-- Stars -->
-  <g transform="translate(390, 90)">
-    <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z" fill="#8B949E"/>
+    <!-- Map Routing Elements Inside Screen -->
+    <!-- Grid pattern background representing streets -->
+    <path d="M150,60 L230,60 M150,110 L230,110 M180,36 L180,169 M210,36 L210,169" stroke="#1F2937" stroke-width="1" />
+    <!-- Active Green Route Path -->
+    <path d="M165,150 L165,95 L200,95 L200,60" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="glow-green" />
+    
+    <!-- User Locator Circle -->
+    <circle cx="165" cy="150" r="5" fill="#22c55e" stroke="#111827" stroke-width="1" class="glow-green" />
+    <!-- Destination Red Map Pin -->
+    <g transform="translate(200, 60)" class="glow-red">
+      <path d="M0,0 C-4,-4 -6,-8 -6,-12 C-6,-17 -3,-20 0,-20 C3,-20 6,-17 6,-12 C6,-8 4,-4 0,0 Z" fill="#FF6B6B" />
+      <circle cx="0" cy="-12" r="2.5" fill="#FFFFFF" />
+    </g>
+
+    <!-- FLOATING ITEMS -->
+    <!-- Floating Item 1: Cute Pizza Slice (Left) -->
+    <g transform="translate(95, 75)" class="glow-orange">
+      <path d="M0,-24 L20,16 L-20,16 Z" fill="#EBCB8B" stroke="#D08770" stroke-width="1.5" stroke-linejoin="round" />
+      <!-- Pepperoni dots -->
+      <circle cx="0" cy="-2" r="3" fill="#BF616A" />
+      <circle cx="-6" cy="8" r="2.5" fill="#BF616A" />
+      <circle cx="6" cy="7" r="2.5" fill="#BF616A" />
+      <!-- Pizza Crust -->
+      <path d="M-22,16 C-22,20 22,20 22,16 Z" fill="#D08770" />
+    </g>
+
+    <!-- Floating Item 2: Burger (Right) -->
+    <g transform="translate(285, 75)" class="glow-orange">
+      <!-- Bun Top -->
+      <path d="M-15,0 C-15,-10 15,-10 15,0 Z" fill="#D08770" stroke="#B48EAD" stroke-width="0.5" />
+      <!-- Lettuce -->
+      <path d="M-17,2 C-13,0 -9,3 -5,1 C-1,3 3,0 7,2 C11,0 15,3 17,2" stroke="#A3BE8C" stroke-width="2.5" stroke-linecap="round" fill="none" />
+      <!-- Cheese -->
+      <polygon points="-15,4 15,4 10,7 -10,7" fill="#EBCB8B" />
+      <!-- Meat Patty -->
+      <rect x="-16" y="7" width="32" height="4" rx="2" fill="#4C566A" />
+      <!-- Bun Bottom -->
+      <rect x="-15" y="11" width="30" height="3" rx="1.5" fill="#D08770" />
+    </g>
+
+    <!-- Floating Item 3: Fast Delivery Scooter (Bottom Overlay) -->
+    <g transform="translate(190, 140)" class="glow-red">
+      <circle cx="0" cy="0" r="14" fill="#FF6B6B" fill-opacity="0.15" />
+      <!-- Simplified neon scooter icon -->
+      <path d="M-12,2 L12,2" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round" />
+      <!-- Wheels -->
+      <circle cx="-7" cy="2" r="3" fill="#242933" stroke="#FF6B6B" stroke-width="1.5" />
+      <circle cx="7" cy="2" r="3" fill="#242933" stroke="#FF6B6B" stroke-width="1.5" />
+      <!-- Chassis -->
+      <path d="M-7,-1 L0,-4 L8,-4 L8,0" stroke="#FF6B6B" stroke-width="1.5" fill="none" stroke-linejoin="round" />
+      <path d="M6,-4 L3,-10 L-6,-10" stroke="#FF6B6B" stroke-width="1.5" fill="none" stroke-linejoin="round" />
+      <!-- Delivery Box -->
+      <rect x="-8" y="-9" width="8" height="8" rx="1" fill="#FF6B6B" />
+    </g>
+    
+    <!-- Sparkles -->
+    <circle cx="65" cy="35" r="2.5" fill="#22c55e" class="glow-green" />
+    <circle cx="320" cy="130" r="3" fill="#FF6B6B" class="glow-red" />
   </g>
-  <text x="410" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">1</text>
+
+  <!-- ==================== TEXT & DETAILS ==================== -->
+  <!-- Tech Stack -->
+  <g transform="translate(190, 325)">
+    <text text-anchor="middle" class="tech">MERN Stack • REST APIs • Maps</text>
+  </g>
+
+  <!-- Description Body -->
+  <g transform="translate(190, 355)" font-size="12" fill="#8B949E">
+    <text text-anchor="middle" class="desc">End-to-end food ordering platform.</text>
+    <text text-anchor="middle" class="desc" y="20">Features real-time route maps and active carts.</text>
+    <text text-anchor="middle" class="desc" y="40">Secure checkout pipelines and responsive layout.</text>
+  </g>
 </svg>
