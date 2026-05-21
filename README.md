@@ -328,27 +328,39 @@
         <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/fulltime.svg" width="100%" alt="Full-Time" />
       </a>
       <br/><br/>
-      Java Developer<br/>
-      Backend Engineer<br/>
-      Spring Boot Specialist
+      <p align="center">
+        <font color="#8B949E">
+          💼 <strong>Java Developer</strong><br/>
+          🚀 <strong>Backend Engineer</strong><br/>
+          ☕ <strong>Spring Boot Specialist</strong>
+        </font>
+      </p>
     </td>
     <td align="center" width="33%" valign="top">
       <a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/">
         <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/freelance.svg" width="100%" alt="Freelance" />
       </a>
       <br/><br/>
-      REST API Development<br/>
-      Full-Stack Web Apps<br/>
-      Cloud Deployment & DevOps
+      <p align="center">
+        <font color="#8B949E">
+          🌐 <strong>REST API Development</strong><br/>
+          💻 <strong>Full-Stack Web Apps</strong><br/>
+          ☁️ <strong>Cloud Deployment &amp; DevOps</strong>
+        </font>
+      </p>
     </td>
     <td align="center" width="33%" valign="top">
       <a href="https://leetcode.com/u/aayushparadkar99/">
         <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/collab.svg" width="100%" alt="Collab" />
       </a>
       <br/><br/>
-      Open Source Projects<br/>
-      Hackathons & Competitions<br/>
-      Exciting Side Projects
+      <p align="center">
+        <font color="#8B949E">
+          🤝 <strong>Open Source Projects</strong><br/>
+          🏆 <strong>Hackathons &amp; Competitions</strong><br/>
+          ✨ <strong>Exciting Side Projects</strong>
+        </font>
+      </p>
     </td>
   </tr>
 </table>
