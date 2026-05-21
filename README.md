@@ -327,16 +327,28 @@
       <a href="mailto:ayushparadkar4@gmail.com">
         <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/fulltime.svg" width="100%" alt="Full-Time" />
       </a>
+      <br/><br/>
+      Java Developer<br/>
+      Backend Engineer<br/>
+      Spring Boot Specialist
     </td>
     <td align="center" width="33%" valign="top">
       <a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/">
         <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/freelance.svg" width="100%" alt="Freelance" />
       </a>
+      <br/><br/>
+      REST API Development<br/>
+      Full-Stack Web Apps<br/>
+      Cloud Deployment & DevOps
     </td>
     <td align="center" width="33%" valign="top">
       <a href="https://leetcode.com/u/aayushparadkar99/">
         <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/collab.svg" width="100%" alt="Collab" />
       </a>
+      <br/><br/>
+      Open Source Projects<br/>
+      Hackathons & Competitions<br/>
+      Exciting Side Projects
     </td>
   </tr>
 </table>
