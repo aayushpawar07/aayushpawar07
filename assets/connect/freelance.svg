@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="160" viewBox="0 0 280 160" fill="none">
+  <style>
+    .card-bg { fill: #0D1117; stroke: url(#border-grad); stroke-width: 1.5; }
+    .label { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 13px; fill: #FFFFFF; letter-spacing: 1px; }
+    .sub { font-family: 'Fira Code', monospace; font-weight: 600; font-size: 9px; fill: #22c55e; letter-spacing: 0.5px; }
+    .glow-green { filter: url(#glow-g); }
+    .glow-cyan { filter: url(#glow-c); }
+  </style>
+
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-g" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-c" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0" y1="0" x2="280" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22c55e" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#30363D" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#00f2fe" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Icon Gradient -->
+    <linearGradient id="icon-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="1" y="1" width="278" height="158" rx="10" class="card-bg" />
+
+  <!-- Code Grid / Tech Background details -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <path d="M 0,20 L 280,20 M 0,40 L 280,40 M 0,60 L 280,60 M 0,80 L 280,80 M 0,100 L 280,100 M 0,120 L 280,120 M 0,140 L 280,140" />
+    <path d="M 40,0 L 40,160 M 80,0 L 80,160 M 120,0 L 120,160 M 160,0 L 160,160 M 200,0 L 200,160 M 240,0 L 240,160" />
+  </g>
+
+  <!-- Gear & Settings Detail -->
+  <g transform="translate(30, 20)">
+    <!-- Tiny Gear representation -->
+    <path d="M15,5 L20,5 L22,9 L26,7 L29,10 L27,14 L30,17 L30,22 L26,24 L27,28 L24,31 L20,29 L17,32 L12,32 L10,28 L6,30 L3,27 L5,23 L2,20 L2,15 L6,13 L5,9 L8,6 L12,8 Z" fill="none" stroke="#30363D" stroke-width="1.5" />
+    <circle cx="16" cy="18.5" r="5" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+    <!-- API tag JSON brackets -->
+    <rect x="25" y="28" width="45" height="20" rx="3" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="32" y="41" font-family="'Fira Code', monospace" font-size="8" fill="#00f2fe" class="glow-cyan">{ API }</text>
+  </g>
+
+  <!-- Main Illustration (Cloud Network) -->
+  <g transform="translate(145, 15)">
+    <!-- Glowing Halo -->
+    <circle cx="45" cy="40" r="30" fill="#22c55e" fill-opacity="0.1" class="glow-green" />
+
+    <!-- Cloud Silhouette -->
+    <path d="M25,48 C20,48 16,44 16,39 C16,35 19,31 23,30.5 C25,23 32,18 40,18 C47,18 53,22 55.5,28 C61,28 65,32 65,37.5 C65,43.3 60.3,48 54.5,48 Z" fill="url(#icon-grad)" stroke="#FFFFFF" stroke-width="1" class="glow-green" opacity="0.9" />
+
+    <!-- Server Server/Db Tray inside Cloud -->
+    <rect x="30" y="32" width="28" height="6" rx="1.5" fill="#111827" stroke="#FFFFFF" stroke-width="0.8" />
+    <circle cx="34" cy="35" r="1" fill="#22c55e" class="glow-green" />
+    <line x1="38" y1="35" x2="52" y2="35" stroke="#8B949E" stroke-width="0.8" />
+
+    <rect x="30" y="40" width="28" height="6" rx="1.5" fill="#111827" stroke="#FFFFFF" stroke-width="0.8" />
+    <circle cx="34" cy="43" r="1" fill="#22c55e" class="glow-green" />
+    <line x1="38" y1="43" x2="52" y2="43" stroke="#8B949E" stroke-width="0.8" />
+  </g>
+
+  <!-- Title & Description Text Inside Card -->
+  <g transform="translate(25, 110)">
+    <text class="label" x="0" y="0">🛠️ FREELANCE SERVICES</text>
+    <text class="sub" x="0" y="16">API DEVELOPMENT • DEVOPS &amp; CLOUD</text>
+    <line x1="0" y1="26" x2="230" y2="26" stroke="#30363D" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+</svg>

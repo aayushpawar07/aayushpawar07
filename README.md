@@ -334,20 +334,23 @@
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <h3>💼 Full-Time</h3>
+    <td align="center" width="33%" valign="top">
+      <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/fulltime.svg" width="100%" alt="Full-Time" />
+      <br/><br/>
       Java Developer<br/>
       Backend Engineer<br/>
       Spring Boot Specialist
     </td>
-    <td align="center" width="33%">
-      <h3>🔧 Freelance</h3>
+    <td align="center" width="33%" valign="top">
+      <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/freelance.svg" width="100%" alt="Freelance" />
+      <br/><br/>
       REST API Development<br/>
       Full-Stack Web Apps<br/>
       Cloud Deployment & DevOps
     </td>
-    <td align="center" width="33%">
-      <h3>🤝 Collab</h3>
+    <td align="center" width="33%" valign="top">
+      <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/collab.svg" width="100%" alt="Collab" />
+      <br/><br/>
       Open Source Projects<br/>
       Hackathons & Competitions<br/>
       Exciting Side Projects
