@@ -35,15 +35,7 @@
 
 <br/>
 
-| 🏷️ | Details |
-|---|---|
-| 📍 **Location** | Bhopal, Madhya Pradesh, India |
-| 🎓 **Education** | B.Tech in Computer Science |
-| 💼 **Current Role** | Java Developer @ Cloud Nexus |
-| 🌱 **Learning** | System Design · Kubernetes · Kafka |
-| 💬 **Ask me about** | Spring Boot · REST APIs · AWS |
-| 📫 **Email** | ayushparadkar4@gmail.com |
-| ⚡ **Fun fact** | I debug prod at 2AM & love it 😄 |
+<img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/about_details.svg?v=1.0.4" alt="Who Am I Details" width="100%" />
 
 <br/>
 
