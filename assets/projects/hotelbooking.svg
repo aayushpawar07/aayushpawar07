@@ -115,16 +115,28 @@
       <!-- Row 1 -->
       <rect x="12" y="30" width="14" height="12" rx="2" fill="#2E3440" />
       <rect x="34" y="30" width="14" height="12" rx="2" fill="#2E3440" />
-      <rect x="56" y="30" width="14" height="12" rx="2" fill="#A3BE8C" class="glow-green" />
-      <rect x="78" y="30" width="14" height="12" rx="2" fill="#A3BE8C" class="glow-green" />
+      <rect x="56" y="30" width="14" height="12" rx="2" fill="#A3BE8C" class="glow-green">
+        <animate attributeName="fill-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </rect>
+      <rect x="78" y="30" width="14" height="12" rx="2" fill="#A3BE8C" class="glow-green">
+        <animate attributeName="fill-opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite" />
+      </rect>
       <!-- Row 2 -->
       <rect x="12" y="48" width="14" height="12" rx="2" fill="#2E3440" />
-      <rect x="34" y="48" width="14" height="12" rx="2" fill="#BF616A" opacity="0.4" />
-      <rect x="56" y="48" width="14" height="12" rx="2" fill="#BF616A" opacity="0.4" />
+      <rect x="34" y="48" width="14" height="12" rx="2" fill="#BF616A" opacity="0.4">
+        <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite" />
+      </rect>
+      <rect x="56" y="48" width="14" height="12" rx="2" fill="#BF616A" opacity="0.4">
+        <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.5s" repeatCount="indefinite" />
+      </rect>
       <rect x="78" y="48" width="14" height="12" rx="2" fill="#2E3440" />
       <!-- Row 3 -->
-      <rect x="12" y="66" width="14" height="12" rx="2" fill="#A3BE8C" class="glow-green" />
-      <rect x="34" y="66" width="14" height="12" rx="2" fill="#A3BE8C" class="glow-green" />
+      <rect x="12" y="66" width="14" height="12" rx="2" fill="#A3BE8C" class="glow-green">
+        <animate attributeName="fill-opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite" />
+      </rect>
+      <rect x="34" y="66" width="14" height="12" rx="2" fill="#A3BE8C" class="glow-green">
+        <animate attributeName="fill-opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
+      </rect>
       <rect x="56" y="66" width="14" height="12" rx="2" fill="#2E3440" />
       <rect x="78" y="66" width="14" height="12" rx="2" fill="#2E3440" />
       <!-- Binder Rings -->

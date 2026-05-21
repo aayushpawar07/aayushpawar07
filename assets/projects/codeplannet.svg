@@ -98,8 +98,28 @@
     </circle>
     <rect x="158" y="89" width="50" height="3" rx="1.5" fill="#8B949E" />
 
-    <circle cx="150" cy="100" r="3" fill="#1F2937" stroke="#30363D" stroke-width="1" />
+    <!-- Radio Choice 2 (Animated Click Select) -->
+    <circle cx="150" cy="100" r="3" fill="#1F2937" stroke="#30363D" stroke-width="1">
+      <animate attributeName="fill" values="#1F2937;#1F2937;#22c55e;#1F2937" keyTimes="0;0.35;0.75;1" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="stroke" values="#30363D;#30363D;#22c55e;#30363D" keyTimes="0;0.35;0.75;1" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="150" cy="100" r="1.5" fill="none" class="glow-green">
+      <animate attributeName="fill" values="none;none;#22c55e;none" keyTimes="0;0.35;0.75;1" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="r" values="0;0;1.5;0" keyTimes="0;0.35;0.75;1" dur="7s" repeatCount="indefinite" />
+    </circle>
     <rect x="158" y="98" width="65" height="3" rx="1.5" fill="#4f5b66" />
+
+    <!-- Animated Cursor Click Arrow -->
+    <g transform="translate(0, 0)">
+      <animateTransform attributeName="transform" type="translate" values="260,150; 150,100; 150,100; 260,150" keyTimes="0;0.35;0.75;1" dur="7s" repeatCount="indefinite" />
+      <!-- Small Arrow Pointer icon -->
+      <path d="M0,0 L2,10 L5,7 L9,11 L11,9 L7,5 L10,2 Z" fill="#FFFFFF" stroke="#111827" stroke-width="0.75" />
+      <!-- Expanding ripple ring when clicking -->
+      <circle cx="0" cy="0" r="0" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0">
+        <animate attributeName="r" values="0;0;10;0" keyTimes="0;0.35;0.65;1" dur="7s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0;0.8;0" keyTimes="0;0.35;0.65;1" dur="7s" repeatCount="indefinite" />
+      </circle>
+    </g>
 
     <!-- Circular Progress Dials (Grades animated) -->
     <rect x="140" y="114" width="68" height="46" rx="3" fill="#161B22" />
@@ -108,7 +128,10 @@
     <circle cx="174" cy="132" r="12" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-dasharray="75" stroke-dashoffset="75" stroke-linecap="round" class="glow-cyan">
       <animate attributeName="stroke-dashoffset" values="75;20;75" dur="6s" repeatCount="indefinite" />
     </circle>
-    <text x="174" y="135" font-family="'Inter', sans-serif" font-weight="800" font-size="8" fill="#FFFFFF" text-anchor="middle">85%</text>
+    <text x="174" y="135" font-family="'Inter', sans-serif" font-weight="800" font-size="8" fill="#FFFFFF" text-anchor="middle">
+      <animate attributeName="fill" values="#FFFFFF;#22c55e;#FFFFFF" dur="3s" repeatCount="indefinite" />
+      85%
+    </text>
     <text x="174" y="153" font-family="'Inter', sans-serif" font-weight="600" font-size="6" fill="#8B949E" text-anchor="middle">Pass Rate</text>
 
     <!-- Extra UI Info Card -->

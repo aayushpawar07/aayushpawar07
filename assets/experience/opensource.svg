@@ -47,6 +47,12 @@
     <path d="M 40,0 L 40,180 M 80,0 L 80,180 M 120,0 L 120,180 M 160,0 L 160,180 M 200,0 L 200,180 M 240,0 L 240,180 M 280,0 L 280,180" />
   </g>
 
+  <!-- Shooting Star / Meteor Effect -->
+  <path d="M 0,0 L 25,12" stroke="url(#icon-grad)" stroke-width="1.8" stroke-linecap="round" opacity="0">
+    <animateTransform attributeName="transform" type="translate" values="-40,-40; 360,160" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.45;1" dur="4.5s" repeatCount="indefinite" />
+  </path>
+
   <!-- Creative Git Activity / Open Source Illustration -->
   <g transform="translate(25, 20)">
     <!-- Tiny Contribution Grid representation (GitHub squares pulsing) -->
