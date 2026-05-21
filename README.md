@@ -221,17 +221,7 @@
 
 </div>
 
----
 
-<!-- ═══════════════════════ ACTIVITY GRAPH ═══════════════════════ -->
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=aayushpawar07&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FF6B6B&area=true&area_color=6C63FF&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
 
 ---
 
