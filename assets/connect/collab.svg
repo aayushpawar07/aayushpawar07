@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="380" height="440" viewBox="0 0 380 440" fill="none">
   <style>
     .card-bg { fill: #0D1117; stroke: url(#card-grad); stroke-width: 1.5; }
-    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; font-weight: 700; font-size: 16px; fill: #FFFFFF; letter-spacing: 0.5px; }
-    .tech { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-weight: 600; font-size: 11px; fill: #FFA116; letter-spacing: 0.5px; }
-    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; font-weight: 500; font-size: 12px; fill: #8B949E; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 18px; fill: #FFFFFF; letter-spacing: 0.5px; }
+    .subtitle { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-weight: 700; font-size: 10px; fill: #FFA116; letter-spacing: 2px; }
+    .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 12px; fill: #E6EDF0; }
+    .percent { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-weight: 700; font-size: 11px; fill: #FFA116; }
+    .perk-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 10px; fill: #FFA116; letter-spacing: 0.5px; }
+    .perk-text-2 { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 10px; fill: #FF6B6B; letter-spacing: 0.5px; }
     .glow-orange { filter: url(#glow-o); }
     .glow-red { filter: url(#glow-r); }
   </style>
@@ -27,9 +30,9 @@
 
     <!-- Card Outer Gradient -->
     <linearGradient id="card-grad" x1="0" y1="0" x2="380" y2="440" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFA116" stop-opacity="0.8"/>
+      <stop stop-color="#FFA116" stop-opacity="0.9"/>
       <stop offset="0.5" stop-color="#30363D" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#FF6B6B" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#FF6B6B" stop-opacity="0.9"/>
     </linearGradient>
 
     <!-- Icon Gradient -->
@@ -37,53 +40,59 @@
       <stop offset="0%" stop-color="#FFA116" />
       <stop offset="100%" stop-color="#FF6B6B" />
     </linearGradient>
+
+    <!-- Progress Bar Gradient -->
+    <linearGradient id="bar-grad" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFA116" />
+      <stop offset="100%" stop-color="#FF6B6B" />
+    </linearGradient>
   </defs>
 
   <!-- Background Rect -->
-  <rect x="1" y="1" width="378" height="438" rx="12" class="card-bg" />
+  <rect x="1" y="1" width="378" height="438" rx="16" class="card-bg" />
 
   <!-- Header Section -->
-  <g transform="translate(190, 45)">
+  <g transform="translate(190, 42)">
     <text text-anchor="middle" class="title">🤝 COLLABORATION</text>
   </g>
 
   <!-- ==================== ILLUSTRATION AREA ==================== -->
-  <g transform="translate(0, 75)">
+  <g transform="translate(0, 55)">
     <!-- Base Ground Line -->
-    <line x1="50" y1="185" x2="330" y2="185" stroke="#30363D" stroke-width="2" stroke-linecap="round" />
+    <line x1="40" y1="130" x2="340" y2="130" stroke="#30363D" stroke-width="1.5" stroke-linecap="round" />
     
-    <!-- Dashed Speed trails (Animated) -->
-    <line x1="280" y1="175" x2="310" y2="175" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="6 4" class="glow-red">
+    <!-- Dashed Speed trails -->
+    <line x1="280" y1="120" x2="310" y2="120" stroke="#FF6B6B" stroke-width="1.5" stroke-dasharray="6 4" class="glow-red">
       <animate attributeName="stroke-dashoffset" values="30;0" dur="0.8s" repeatCount="indefinite" />
     </line>
-    <line x1="60" y1="175" x2="90" y2="175" stroke="#FFA116" stroke-width="2" stroke-dasharray="6 4" class="glow-orange">
+    <line x1="60" y1="120" x2="90" y2="120" stroke="#FFA116" stroke-width="1.5" stroke-dasharray="6 4" class="glow-orange">
       <animate attributeName="stroke-dashoffset" values="0;30" dur="0.8s" repeatCount="indefinite" />
     </line>
 
     <!-- Git Graph branch visualization (Left side) -->
-    <g transform="translate(55, 45)">
-      <g opacity="0.6" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M20,60 L90,60" stroke="#30363D" stroke-width="2.5" />
-        <path d="M40,60 C55,60 55,30 70,30 L90,30" stroke="#FF6B6B" stroke-width="2.5" />
-        <circle cx="40" cy="60" r="4.5" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
-        <circle cx="70" cy="30" r="4.5" fill="#161B22" stroke="#FF6B6B" stroke-width="1.5" class="glow-red">
+    <g transform="translate(45, 15)">
+      <g opacity="0.85" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10,65 L85,65" stroke="#30363D" stroke-width="2.5" />
+        <path d="M30,65 C45,65 45,35 60,35 L85,35" stroke="#FF6B6B" stroke-width="2.5" />
+        <circle cx="30" cy="65" r="4.5" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+        <circle cx="60" cy="35" r="4.5" fill="#161B22" stroke="#FF6B6B" stroke-width="1.5" class="glow-red">
           <animate attributeName="stroke-width" values="1.5;3.5;1.5" dur="2s" repeatCount="indefinite" />
         </circle>
-        <circle cx="85" cy="60" r="4.5" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+        <circle cx="80" cy="65" r="4.5" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
 
         <!-- Data packet sliding along the branch out path -->
         <circle r="2.5" fill="#FFA116" class="glow-orange">
-          <animateMotion path="M40,60 C55,60 55,30 70,30 L90,30" dur="3s" repeatCount="indefinite" />
+          <animateMotion path="M30,65 C45,65 45,35 60,35 L85,35" dur="3s" repeatCount="indefinite" />
         </circle>
       </g>
     </g>
 
     <!-- Main Rocket Illustration (Right side) -->
-    <g transform="translate(205, 35)">
+    <g transform="translate(205, 10)">
       <!-- Glowing Halo -->
-      <circle cx="45" cy="40" r="30" fill="#FFA116" fill-opacity="0.1" class="glow-orange">
-        <animate attributeName="r" values="26;34;26" dur="3s" repeatCount="indefinite" />
-        <animate attributeName="fill-opacity" values="0.05;0.2;0.05" dur="3s" repeatCount="indefinite" />
+      <circle cx="50" cy="45" r="35" fill="#FFA116" fill-opacity="0.1" class="glow-orange">
+        <animate attributeName="r" values="30;38;30" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill-opacity" values="0.05;0.18;0.05" dur="3s" repeatCount="indefinite" />
       </circle>
 
       <!-- Rocket and thrust group to float together -->
@@ -91,45 +100,85 @@
         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3.5s" repeatCount="indefinite" />
         
         <!-- Rocket Body -->
-        <path d="M37,12 C37,12 40,5 45,5 C50,5 53,12 53,12 L56,36 C56,36 50,42 45,42 C40,42 34,36 34,36 Z" fill="url(#icon-grad)" stroke="#FFFFFF" stroke-width="1" class="glow-orange" />
+        <path d="M42,12 C42,12 45,5 50,5 C55,5 58,12 58,12 L61,36 C61,36 55,42 50,42 C45,42 39,36 39,36 Z" fill="url(#icon-grad)" stroke="#FFFFFF" stroke-width="1" class="glow-orange" />
         <!-- Fins -->
-        <path d="M34,28 L27,37 C27,37 32,38 34,35 Z" fill="#FF6B6B" />
-        <path d="M56,28 L63,37 C63,37 58,38 56,35 Z" fill="#FF6B6B" />
+        <path d="M39,28 L32,37 C32,37 37,38 39,35 Z" fill="#FF6B6B" />
+        <path d="M61,28 L68,37 C68,37 63,38 61,35 Z" fill="#FF6B6B" />
         <!-- Window -->
-        <circle cx="45" cy="18" r="4.5" fill="#111827" stroke="#FFFFFF" stroke-width="1" />
-        <circle cx="43" cy="16" r="1" fill="#FFFFFF" opacity="0.6" />
+        <circle cx="50" cy="18" r="4.5" fill="#111827" stroke="#FFFFFF" stroke-width="1" />
+        <circle cx="48" cy="16" r="1" fill="#FFFFFF" opacity="0.6" />
 
         <!-- Rocket Thrust Fire -->
-        <path d="M41,43 L45,54 L49,43 Z" fill="#FFA116" opacity="0.9" class="glow-orange">
+        <path d="M46,43 L50,54 L54,43 Z" fill="#FFA116" opacity="0.9" class="glow-orange">
           <animate attributeName="opacity" values="0.9;0.4;0.9" dur="0.15s" repeatCount="indefinite" />
         </path>
-        <path d="M43,43 L45,49 L47,43 Z" fill="#FF5F56">
+        <path d="M48,43 L50,49 L52,43 Z" fill="#FF5F56">
           <animate attributeName="opacity" values="1;0.6;1" dur="0.12s" repeatCount="indefinite" />
         </path>
       </g>
     </g>
     
     <!-- Twinkling Sparkles -->
-    <circle cx="65" cy="35" r="2.5" fill="#FFA116" class="glow-orange">
+    <circle cx="60" cy="15" r="2.5" fill="#FFA116" class="glow-orange">
       <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite" />
       <animate attributeName="r" values="2;3.2;2" dur="2.8s" repeatCount="indefinite" />
     </circle>
-    <circle cx="320" cy="130" r="3" fill="#FF6B6B" class="glow-red">
+    <circle cx="320" cy="100" r="3" fill="#FF6B6B" class="glow-red">
       <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
       <animate attributeName="r" values="3;1.5;3" dur="2.2s" repeatCount="indefinite" />
     </circle>
   </g>
 
-  <!-- ==================== TEXT & DETAILS ==================== -->
-  <!-- Tech Stack -->
-  <g transform="translate(190, 325)">
-    <text text-anchor="middle" class="tech">OPEN SOURCE • HACKATHONS</text>
+  <!-- ==================== STATS / SPECIFICATIONS ==================== -->
+  <!-- Stats Header -->
+  <g transform="translate(40, 215)">
+    <text class="subtitle">CREATIVE PARTNER : ACTIVE</text>
   </g>
 
-  <!-- Description Body -->
-  <g transform="translate(190, 355)" font-size="12" fill="#8B949E">
-    <text text-anchor="middle" class="desc">Open Source Projects</text>
-    <text text-anchor="middle" class="desc" y="20">Hackathons &amp; Competitions</text>
-    <text text-anchor="middle" class="desc" y="40">Exciting Side Projects</text>
+  <!-- Stat Row 1: Git Workflows -->
+  <g transform="translate(0, 242)">
+    <text x="40" class="label">Teamwork &amp; Git Workflows</text>
+    <text x="340" text-anchor="end" class="percent">90%</text>
+    <!-- Progress Bar Track -->
+    <rect x="40" y="8" width="300" height="8" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <!-- Progress Bar Fill with Animation -->
+    <rect x="40" y="8" width="0" height="8" rx="4" fill="url(#bar-grad)" class="glow-orange">
+      <animate attributeName="width" from="0" to="270" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" />
+    </rect>
+  </g>
+
+  <!-- Stat Row 2: Problem Solving -->
+  <g transform="translate(0, 282)">
+    <text x="40" class="label">DSA &amp; Problem Solving</text>
+    <text x="340" text-anchor="end" class="percent">95%</text>
+    <!-- Progress Bar Track -->
+    <rect x="40" y="8" width="300" height="8" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <!-- Progress Bar Fill with Animation -->
+    <rect x="40" y="8" width="0" height="8" rx="4" fill="url(#bar-grad)" class="glow-orange">
+      <animate attributeName="width" from="0" to="285" dur="1.2s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" />
+    </rect>
+  </g>
+
+  <!-- Stat Row 3: Hackathons -->
+  <g transform="translate(0, 322)">
+    <text x="40" class="label">Hackathons &amp; Side Projects</text>
+    <text x="340" text-anchor="end" class="percent">92%</text>
+    <!-- Progress Bar Track -->
+    <rect x="40" y="8" width="300" height="8" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <!-- Progress Bar Fill with Animation -->
+    <rect x="40" y="8" width="0" height="8" rx="4" fill="url(#bar-grad)" class="glow-orange">
+      <animate attributeName="width" from="0" to="276" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" />
+    </rect>
+  </g>
+
+  <!-- ==================== FOOTER PERKS ==================== -->
+  <g transform="translate(0, 372)">
+    <!-- Pill 1 (Left) -->
+    <rect x="40" y="0" width="140" height="32" rx="16" fill="#161B22" stroke="#FFA116" stroke-width="1.5" />
+    <text x="110" y="20" text-anchor="middle" class="perk-text">🏆 HACKATHON PRO</text>
+
+    <!-- Pill 2 (Right) -->
+    <rect x="200" y="0" width="140" height="32" rx="16" fill="#161B22" stroke="#FF6B6B" stroke-width="1.5" />
+    <text x="270" y="20" text-anchor="middle" class="perk-text-2">✨ OPEN SOURCE</text>
   </g>
 </svg>
