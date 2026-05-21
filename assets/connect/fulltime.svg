@@ -58,7 +58,9 @@
     <circle cx="11" cy="4" r="1.5" fill="#FFBD2E" />
     <circle cx="16" cy="4" r="1.5" fill="#27C93F" />
     <!-- Prompt -->
-    <text x="6" y="20" font-family="'Fira Code', monospace" font-size="6" fill="#6C63FF">&gt;_</text>
+    <text x="6" y="20" font-family="'Fira Code', monospace" font-size="6" fill="#6C63FF">&gt;_
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+    </text>
     <rect x="18" y="16" width="25" height="4" rx="1" fill="#FFFFFF" fill-opacity="0.6" />
     <rect x="6" y="26" width="40" height="4" rx="1" fill="#8B949E" />
     <rect x="6" y="34" width="30" height="4" rx="1" fill="#8B949E" />
@@ -67,7 +69,10 @@
   <!-- Main Illustration (Java Coffee / Spring Cup) -->
   <g transform="translate(145, 15)">
     <!-- Glowing Halo -->
-    <circle cx="45" cy="40" r="30" fill="#6C63FF" fill-opacity="0.1" class="glow-purple" />
+    <circle cx="45" cy="40" r="30" fill="#6C63FF" fill-opacity="0.1" class="glow-purple">
+      <animate attributeName="r" values="26;34;26" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="fill-opacity" values="0.05;0.2;0.05" dur="3s" repeatCount="indefinite" />
+    </circle>
 
     <!-- Coffee Cup Profile -->
     <path d="M25,25 L65,25 C65,48 25,48 25,25 Z" fill="url(#icon-grad)" stroke="#FFFFFF" stroke-width="1" class="glow-purple" />
@@ -77,12 +82,23 @@
     <path d="M20,50 L70,50" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
 
     <!-- Rising Steam Lines -->
-    <path d="M35,18 C33,12 37,8 35,2" fill="none" stroke="#FFA116" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
-    <path d="M45,18 C43,12 47,8 45,2" fill="none" stroke="#FF6B6B" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
-    <path d="M55,18 C53,12 57,8 55,2" fill="none" stroke="#6C63FF" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
+    <path d="M35,18 C33,12 37,8 35,2" fill="none" stroke="#FFA116" stroke-width="1.5" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" repeatCount="indefinite" additive="sum" />
+      <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite" />
+    </path>
+    <path d="M45,18 C43,12 47,8 45,2" fill="none" stroke="#FF6B6B" stroke-width="1.5" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" begin="0.6s" repeatCount="indefinite" additive="sum" />
+      <animate attributeName="opacity" values="0.8;0" dur="2s" begin="0.6s" repeatCount="indefinite" />
+    </path>
+    <path d="M55,18 C53,12 57,8 55,2" fill="none" stroke="#6C63FF" stroke-width="1.5" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" begin="1.2s" repeatCount="indefinite" additive="sum" />
+      <animate attributeName="opacity" values="0.8;0" dur="2s" begin="1.2s" repeatCount="indefinite" />
+    </path>
 
     <!-- Leaf Core details (Spring Spring) -->
-    <path d="M45,30 Q47,38 43,44 Q49,38 45,30 Z" fill="#22c55e" opacity="0.9" class="glow-cyan" />
+    <path d="M45,30 Q47,38 43,44 Q49,38 45,30 Z" fill="#22c55e" opacity="0.9" class="glow-cyan">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
+    </path>
   </g>
 
   <!-- Title & Description Text Inside Card -->
