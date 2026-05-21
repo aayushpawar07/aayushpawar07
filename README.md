@@ -204,15 +204,15 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=aayushpawar07&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B&text_color=FFFFFF&ring_color=6C63FF&hide_rank=true" />
-<img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aayushpawar07&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF" />
+<img height="180" src="https://github-readme-stats-fast.vercel.app/api?username=aayushpawar07&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=FF6B6B&text_color=FFFFFF&ring_color=6C63FF&hide_rank=true&v=1.0.2" />
+<img height="180" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=aayushpawar07&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF&v=1.0.2" />
 
 </div>
 
 <div align="center">
 
 <a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=aayushpawar07&amp;theme=radical&amp;hide_border=true&amp;background=0D1117&amp;stroke=6C63FF&amp;ring=6C63FF&amp;fire=FF6B6B&amp;currStreakLabel=6C63FF&amp;sideLabels=FFFFFF&amp;dates=FFFFFF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushpawar07&theme=radical&hide_border=true&background=0D1117&stroke=6C63FF&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF&sideLabels=FFFFFF&dates=FFFFFF&v=1.0.2" alt="GitHub Streak" />
 </a>
 
 </div>
