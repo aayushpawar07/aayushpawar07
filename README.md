@@ -225,16 +225,8 @@
 
 ---
 
-<!-- ═══════════════════════ RECENT ACTIVITY ═══════════════════════ -->
-
-## ⚡ Recent GitHub Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
 <!-- ═══════════════════════ SNAKE ═══════════════════════ -->
+
 
 ## 🐍 Watch the Snake Eat My Contributions!
 
