@@ -8,7 +8,7 @@
 
 <a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/"><img src="https://img.shields.io/badge/🌐 Portfolio-6C63FF?style=for-the-badge" /></a>
 <a href="https://www.linkedin.com/in/aayush-paradkar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://leetcode.com/u/aayushparadkar99/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+<a href="https://codolio.com/profile/AayushParadkar07"><img src="https://img.shields.io/badge/Codolio-00f2fe?style=for-the-badge" /></a>
 <a href="mailto:ayushparadkar4@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aayushpawar07&label=👁️+Profile+Views&color=6C63FF&style=for-the-badge)
@@ -217,13 +217,13 @@
 
 ---
 
-<!-- ═══════════════════════ LEETCODE ═══════════════════════ -->
+<!-- ═══════════════════════ CODOLIO ═══════════════════════ -->
 
-## 🧠 LeetCode & Problem Solving
+## 📊 Codolio Coding Dashboard
 
 <div align="center">
 
-[![LeetCode Stats](https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/leetcode/stats.svg)](https://leetcode.com/u/aayushparadkar99/)
+[![Codolio Stats](https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/codolio/stats.svg)](https://codolio.com/profile/AayushParadkar07)
 
 </div>
 
@@ -334,7 +334,7 @@
       </a>
     </td>
     <td align="center" width="33%" valign="top">
-      <a href="https://leetcode.com/u/aayushparadkar99/">
+      <a href="https://codolio.com/profile/AayushParadkar07">
         <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/collab.svg" width="100%" alt="Collab" />
       </a>
     </td>
@@ -347,8 +347,8 @@
   <img src="https://img.shields.io/badge/🌐_Visit_Portfolio-6C63FF?style=for-the-badge" />
 </a>
 &nbsp;
-<a href="https://leetcode.com/u/aayushparadkar99/">
-  <img src="https://img.shields.io/badge/⚡_LeetCode_Profile-FFA116?style=for-the-badge" />
+<a href="https://codolio.com/profile/AayushParadkar07">
+  <img src="https://img.shields.io/badge/⚡_Codolio_Profile-00f2fe?style=for-the-badge" />
 </a>
 &nbsp;
 <a href="mailto:ayushparadkar4@gmail.com">

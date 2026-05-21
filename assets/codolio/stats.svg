@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" fill="none">
+  <style>
+    .card-bg { fill: #0D1117; stroke: url(#card-grad); stroke-width: 1.5; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 16px; fill: #FFFFFF; letter-spacing: 0.5px; }
+    .handle { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-weight: 700; font-size: 11px; fill: #8B949E; }
+    .verified-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 9px; fill: #22c55e; letter-spacing: 0.5px; }
+    .label-main { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 12px; fill: #8B949E; }
+    .label-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 9px; fill: #8B949E; letter-spacing: 0.5px; }
+    .label-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 10px; fill: #8B949E; }
+    .stat-val { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-weight: 800; font-size: 46px; }
+    .val-mini { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-weight: 700; font-size: 13px; }
+    .buff-text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-weight: 700; font-size: 10px; fill: #22c55e; letter-spacing: 1px; }
+    
+    .platform-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 13px; fill: #FFFFFF; letter-spacing: 0.5px; }
+    .platform-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 12px; }
+    .platform-val { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-weight: 700; font-size: 11px; fill: #E6EDF0; }
+    
+    .glow-orange { filter: url(#glow-o); }
+    .glow-green { filter: url(#glow-g); }
+    .glow-cyan { filter: url(#glow-c); }
+  </style>
+
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-o" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-g" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-c" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Card Outer Gradient -->
+    <linearGradient id="card-grad" x1="0" y1="0" x2="800" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFA116" />
+      <stop offset="0.33" stop-color="#22c55e" />
+      <stop offset="0.66" stop-color="#00f2fe" />
+      <stop offset="1" stop-color="#6C63FF" />
+    </linearGradient>
+
+    <!-- Giant Stat Fill Gradient -->
+    <linearGradient id="total-grad" x1="0" y1="0" x2="0" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFA116" />
+      <stop offset="100%" stop-color="#FF6B6B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card Rect -->
+  <rect x="1" y="1" width="798" height="318" rx="16" class="card-bg" />
+
+  <!-- ==================== HEADER SECTION ==================== -->
+  <g transform="translate(30, 25)">
+    <!-- Codolio Simulated Brackets Logo -->
+    <rect x="0" y="0" width="24" height="24" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+    <path d="M7,8 L5,12 L7,16" stroke="#00f2fe" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M17,8 L19,12 L17,16" stroke="#FFA116" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="13" y1="7" x2="11" y2="17" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Name & Handle -->
+    <text x="36" y="17" class="title">aayush-paradkar</text>
+    <text x="175" y="17" class="handle">@AayushParadkar07</text>
+
+    <!-- Verified Badge -->
+    <g transform="translate(325, 0)">
+      <rect x="0" y="0" width="85" height="20" rx="10" fill="#1b281b" stroke="#22c55e" stroke-width="1" />
+      <text x="42.5" y="13" text-anchor="middle" class="verified-text" fill="#22c55e">✓ VERIFIED</text>
+    </g>
+  </g>
+
+  <!-- ==================== LEFT COLUMN PANEL (OVERALL STATS) ==================== -->
+  <g transform="translate(30, 70)">
+    <!-- Inside summary panel -->
+    <rect x="0" y="0" width="340" height="220" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1" />
+
+    <!-- Total Questions Solved -->
+    <text x="170" y="32" text-anchor="middle" class="label-main">TOTAL QUESTIONS SOLVED</text>
+    <text x="170" y="85" text-anchor="middle" class="stat-val" fill="url(#total-grad)">602
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" />
+    </text>
+
+    <!-- Global Rank Subpanel -->
+    <g transform="translate(20, 105)">
+      <rect x="0" y="0" width="140" height="52" rx="8" fill="#0D1117" stroke="#30363D" />
+      <text x="70" y="20" text-anchor="middle" class="label-sub">GLOBAL RANK</text>
+      <text x="70" y="38" text-anchor="middle" class="val-mini" fill="#FFA116">🏆 #24,810</text>
+    </g>
+
+    <!-- Active Days Subpanel -->
+    <g transform="translate(180, 105)">
+      <rect x="0" y="0" width="140" height="52" rx="8" fill="#0D1117" stroke="#30363D" />
+      <text x="70" y="20" text-anchor="middle" class="label-sub">ACTIVE DAYS</text>
+      <text x="70" y="38" text-anchor="middle" class="val-mini" fill="#00f2fe">📅 236 Days</text>
+    </g>
+
+    <!-- Coding Buff/Status -->
+    <g transform="translate(170, 185)">
+      <text text-anchor="middle" class="buff-text">● C-SCORE LEADERBOARD ELITE</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN PANEL (DSA PLATFORMS) ==================== -->
+  <g transform="translate(400, 70)">
+    <text x="0" y="15" class="platform-title">DSA PLATFORM BREAKDOWN</text>
+
+    <!-- LeetCode Platform Card -->
+    <g transform="translate(0, 30)">
+      <text x="0" y="12" class="platform-name" fill="#FFA116">LeetCode</text>
+      <text x="370" y="12" text-anchor="end" class="platform-val">495 / 602 Solved</text>
+      
+      <!-- Progress Bar Track -->
+      <rect x="0" y="20" width="370" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <!-- Progress Bar Fill (82.2%) -->
+      <rect x="0" y="20" width="0" height="6" rx="3" fill="#FFA116" class="glow-orange">
+        <animate attributeName="width" from="0" to="304" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" />
+      </rect>
+      
+      <!-- Breakdown Details -->
+      <text x="0" y="38" class="label-desc">Easy: <tspan fill="#00f2fe" font-weight="bold">402</tspan> &nbsp;•&nbsp; Medium: <tspan fill="#FFA116" font-weight="bold">93</tspan> &nbsp;•&nbsp; Hard: <tspan fill="#FF6B6B" font-weight="bold">0</tspan></text>
+    </g>
+
+    <!-- GeeksforGeeks Platform Card -->
+    <g transform="translate(0, 95)">
+      <text x="0" y="12" class="platform-name" fill="#22c55e">GeeksforGeeks</text>
+      <text x="370" y="12" text-anchor="end" class="platform-val">87 / 602 Solved</text>
+      
+      <!-- Progress Bar Track -->
+      <rect x="0" y="20" width="370" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <!-- Progress Bar Fill (14.5%) -->
+      <rect x="0" y="20" width="0" height="6" rx="3" fill="#22c55e" class="glow-green">
+        <animate attributeName="width" from="0" to="54" dur="1.2s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" />
+      </rect>
+      
+      <!-- Breakdown Details -->
+      <text x="0" y="38" class="label-desc">Fundamentals: <tspan fill="#22c55e" font-weight="bold">87</tspan> &nbsp;•&nbsp; Practice &amp; Contests (GFG)</text>
+    </g>
+
+    <!-- HackerRank Platform Card -->
+    <g transform="translate(0, 160)">
+      <text x="0" y="12" class="platform-name" fill="#00f2fe">HackerRank</text>
+      <text x="370" y="12" text-anchor="end" class="platform-val">20 / 602 Solved</text>
+      
+      <!-- Progress Bar Track -->
+      <rect x="0" y="20" width="370" height="6" rx="3" fill="#161B22" stroke="#30363D" stroke-width="0.5" />
+      <!-- Progress Bar Fill (3.3%) -->
+      <rect x="0" y="20" width="0" height="6" rx="3" fill="#00f2fe" class="glow-cyan">
+        <animate attributeName="width" from="0" to="12" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" />
+      </rect>
+      
+      <!-- Breakdown Details -->
+      <text x="0" y="38" class="label-desc">Fundamentals: <tspan fill="#00f2fe" font-weight="bold">20</tspan> &nbsp;•&nbsp; Algorithms &amp; DS Certifications</text>
+    </g>
+  </g>
+</svg>
