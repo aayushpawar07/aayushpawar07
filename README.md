@@ -324,25 +324,19 @@
 <table>
   <tr>
     <td align="center" width="33%" valign="top">
-      <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/fulltime.svg" width="100%" alt="Full-Time" />
-      <br/><br/>
-      Java Developer<br/>
-      Backend Engineer<br/>
-      Spring Boot Specialist
+      <a href="mailto:ayushparadkar4@gmail.com">
+        <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/fulltime.svg" width="100%" alt="Full-Time" />
+      </a>
     </td>
     <td align="center" width="33%" valign="top">
-      <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/freelance.svg" width="100%" alt="Freelance" />
-      <br/><br/>
-      REST API Development<br/>
-      Full-Stack Web Apps<br/>
-      Cloud Deployment & DevOps
+      <a href="https://portfolio-master-nljq94h8t-aayushpawar07s-projects.vercel.app/">
+        <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/freelance.svg" width="100%" alt="Freelance" />
+      </a>
     </td>
     <td align="center" width="33%" valign="top">
-      <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/collab.svg" width="100%" alt="Collab" />
-      <br/><br/>
-      Open Source Projects<br/>
-      Hackathons & Competitions<br/>
-      Exciting Side Projects
+      <a href="https://leetcode.com/u/aayushparadkar99/">
+        <img src="https://raw.githubusercontent.com/aayushpawar07/aayushpawar07/main/assets/connect/collab.svg" width="100%" alt="Collab" />
+      </a>
     </td>
   </tr>
 </table>

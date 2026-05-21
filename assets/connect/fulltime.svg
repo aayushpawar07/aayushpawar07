@@ -1,22 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="280" height="160" viewBox="0 0 280 160" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="440" viewBox="0 0 380 440" fill="none">
   <style>
-    .card-bg { fill: #0D1117; stroke: url(#border-grad); stroke-width: 1.5; }
-    .label { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 13px; fill: #FFFFFF; letter-spacing: 1px; }
-    .sub { font-family: 'Fira Code', monospace; font-weight: 600; font-size: 9px; fill: #6C63FF; letter-spacing: 0.5px; }
+    .card-bg { fill: #0D1117; stroke: url(#card-grad); stroke-width: 1.5; }
+    .title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; fill: #FFFFFF; letter-spacing: 0.5px; }
+    .tech { font-family: 'Fira Code', monospace; font-weight: 600; font-size: 11px; fill: #6C63FF; letter-spacing: 0.5px; }
+    .desc { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 12px; fill: #8B949E; }
     .glow-purple { filter: url(#glow-p); }
     .glow-cyan { filter: url(#glow-c); }
   </style>
 
   <defs>
     <!-- Glow Filters -->
-    <filter id="glow-p" x="-25%" y="-25%" width="150%" height="150%">
+    <filter id="glow-p" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    <filter id="glow-c" x="-25%" y="-25%" width="150%" height="150%">
+    <filter id="glow-c" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -24,8 +25,8 @@
       </feMerge>
     </filter>
 
-    <!-- Border Gradient -->
-    <linearGradient id="border-grad" x1="0" y1="0" x2="280" y2="160" gradientUnits="userSpaceOnUse">
+    <!-- Card Outer Gradient -->
+    <linearGradient id="card-grad" x1="0" y1="0" x2="380" y2="440" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6C63FF" stop-opacity="0.8"/>
       <stop offset="0.5" stop-color="#30363D" stop-opacity="0.2"/>
       <stop offset="1" stop-color="#a855f7" stop-opacity="0.8"/>
@@ -38,73 +39,102 @@
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect x="1" y="1" width="278" height="158" rx="10" class="card-bg" />
+  <!-- Background Rect -->
+  <rect x="1" y="1" width="378" height="438" rx="12" class="card-bg" />
 
-  <!-- Code Grid / Tech Background details -->
-  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
-    <path d="M 0,20 L 280,20 M 0,40 L 280,40 M 0,60 L 280,60 M 0,80 L 280,80 M 0,100 L 280,100 M 0,120 L 280,120 M 0,140 L 280,140" />
-    <path d="M 40,0 L 40,160 M 80,0 L 80,160 M 120,0 L 120,160 M 160,0 L 160,160 M 200,0 L 200,160 M 240,0 L 240,160" />
+  <!-- Header Section -->
+  <g transform="translate(190, 45)">
+    <text text-anchor="middle" class="title">💼 FULL-TIME ROLE</text>
   </g>
 
-  <!-- Terminal Frame Representation -->
-  <g transform="translate(20, 20)">
-    <!-- Terminal Screen -->
-    <rect x="0" y="0" width="70" height="50" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
-    <!-- Header -->
-    <path d="M0,8 L70,8" stroke="#30363D" stroke-width="1" />
-    <!-- Window Controls -->
-    <circle cx="6" cy="4" r="1.5" fill="#FF5F56" />
-    <circle cx="11" cy="4" r="1.5" fill="#FFBD2E" />
-    <circle cx="16" cy="4" r="1.5" fill="#27C93F" />
-    <!-- Prompt -->
-    <text x="6" y="20" font-family="'Fira Code', monospace" font-size="6" fill="#6C63FF">&gt;_
-      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
-    </text>
-    <rect x="18" y="16" width="25" height="4" rx="1" fill="#FFFFFF" fill-opacity="0.6" />
-    <rect x="6" y="26" width="40" height="4" rx="1" fill="#8B949E" />
-    <rect x="6" y="34" width="30" height="4" rx="1" fill="#8B949E" />
-  </g>
+  <!-- ==================== ILLUSTRATION AREA ==================== -->
+  <g transform="translate(0, 75)">
+    <!-- Base Ground Line -->
+    <line x1="50" y1="185" x2="330" y2="185" stroke="#30363D" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Dashed Speed trails (Animated) -->
+    <line x1="280" y1="175" x2="310" y2="175" stroke="#a855f7" stroke-width="2" stroke-dasharray="6 4" class="glow-purple">
+      <animate attributeName="stroke-dashoffset" values="30;0" dur="0.8s" repeatCount="indefinite" />
+    </line>
+    <line x1="60" y1="175" x2="90" y2="175" stroke="#6C63FF" stroke-width="2" stroke-dasharray="6 4" class="glow-purple">
+      <animate attributeName="stroke-dashoffset" values="0;30" dur="0.8s" repeatCount="indefinite" />
+    </line>
 
-  <!-- Main Illustration (Java Coffee / Spring Cup) -->
-  <g transform="translate(145, 15)">
-    <!-- Glowing Halo -->
-    <circle cx="45" cy="40" r="30" fill="#6C63FF" fill-opacity="0.1" class="glow-purple">
-      <animate attributeName="r" values="26;34;26" dur="3s" repeatCount="indefinite" />
-      <animate attributeName="fill-opacity" values="0.05;0.2;0.05" dur="3s" repeatCount="indefinite" />
+    <!-- Terminal Mock Panel (Left side) -->
+    <g transform="translate(55, 45)">
+      <!-- Terminal Screen -->
+      <rect x="0" y="0" width="100" height="75" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+      <!-- Header -->
+      <path d="M0,12 L100,12" stroke="#30363D" stroke-width="1" />
+      <!-- Window Controls -->
+      <circle cx="8" cy="6" r="2" fill="#FF5F56" />
+      <circle cx="15" cy="6" r="2" fill="#FFBD2E" />
+      <circle cx="22" cy="6" r="2" fill="#27C93F" />
+      <!-- Prompt & code simulation -->
+      <text x="8" y="29" font-family="'Fira Code', monospace" font-size="8" fill="#6C63FF">&gt;_
+        <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+      </text>
+      <rect x="24" y="23" width="35" height="6" rx="1.5" fill="#FFFFFF" fill-opacity="0.6" />
+      <rect x="8" y="39" width="65" height="6" rx="1.5" fill="#8B949E" />
+      <rect x="8" y="52" width="45" height="6" rx="1.5" fill="#8B949E" />
+    </g>
+
+    <!-- Main Coffee Cup Illustration (Right side) -->
+    <g transform="translate(205, 35)">
+      <!-- Glowing Halo -->
+      <circle cx="45" cy="40" r="30" fill="#6C63FF" fill-opacity="0.1" class="glow-purple">
+        <animate attributeName="r" values="26;34;26" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="fill-opacity" values="0.05;0.2;0.05" dur="3s" repeatCount="indefinite" />
+      </circle>
+
+      <!-- Coffee Cup Profile -->
+      <path d="M25,25 L65,25 C65,48 25,48 25,25 Z" fill="url(#icon-grad)" stroke="#FFFFFF" stroke-width="1" class="glow-purple" />
+      <!-- Handle -->
+      <path d="M65,30 C72,30 72,40 65,40" fill="none" stroke="url(#icon-grad)" stroke-width="2" stroke-linecap="round" class="glow-purple" />
+      <!-- Plate / Saucer -->
+      <path d="M20,50 L70,50" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+
+      <!-- Rising Steam Lines -->
+      <path d="M35,18 C33,12 37,8 35,2" fill="none" stroke="#FFA116" stroke-width="1.5" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" repeatCount="indefinite" additive="sum" />
+        <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite" />
+      </path>
+      <path d="M45,18 C43,12 47,8 45,2" fill="none" stroke="#FF6B6B" stroke-width="1.5" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" begin="0.6s" repeatCount="indefinite" additive="sum" />
+        <animate attributeName="opacity" values="0.8;0" dur="2s" begin="0.6s" repeatCount="indefinite" />
+      </path>
+      <path d="M55,18 C53,12 57,8 55,2" fill="none" stroke="#6C63FF" stroke-width="1.5" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" begin="1.2s" repeatCount="indefinite" additive="sum" />
+        <animate attributeName="opacity" values="0.8;0" dur="2s" begin="1.2s" repeatCount="indefinite" />
+      </path>
+
+      <!-- Leaf Core details (Spring Spring) -->
+      <path d="M45,30 Q47,38 43,44 Q49,38 45,30 Z" fill="#22c55e" opacity="0.9" class="glow-cyan">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
+      </path>
+    </g>
+    
+    <!-- Twinkling Sparkles -->
+    <circle cx="65" cy="35" r="2.5" fill="#22c55e" class="glow-cyan">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite" />
+      <animate attributeName="r" values="2;3.2;2" dur="2.8s" repeatCount="indefinite" />
     </circle>
-
-    <!-- Coffee Cup Profile -->
-    <path d="M25,25 L65,25 C65,48 25,48 25,25 Z" fill="url(#icon-grad)" stroke="#FFFFFF" stroke-width="1" class="glow-purple" />
-    <!-- Handle -->
-    <path d="M65,30 C72,30 72,40 65,40" fill="none" stroke="url(#icon-grad)" stroke-width="2" stroke-linecap="round" class="glow-purple" />
-    <!-- Plate / Saucer -->
-    <path d="M20,50 L70,50" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
-
-    <!-- Rising Steam Lines -->
-    <path d="M35,18 C33,12 37,8 35,2" fill="none" stroke="#FFA116" stroke-width="1.5" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" repeatCount="indefinite" additive="sum" />
-      <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite" />
-    </path>
-    <path d="M45,18 C43,12 47,8 45,2" fill="none" stroke="#FF6B6B" stroke-width="1.5" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" begin="0.6s" repeatCount="indefinite" additive="sum" />
-      <animate attributeName="opacity" values="0.8;0" dur="2s" begin="0.6s" repeatCount="indefinite" />
-    </path>
-    <path d="M55,18 C53,12 57,8 55,2" fill="none" stroke="#6C63FF" stroke-width="1.5" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6" dur="2s" begin="1.2s" repeatCount="indefinite" additive="sum" />
-      <animate attributeName="opacity" values="0.8;0" dur="2s" begin="1.2s" repeatCount="indefinite" />
-    </path>
-
-    <!-- Leaf Core details (Spring Spring) -->
-    <path d="M45,30 Q47,38 43,44 Q49,38 45,30 Z" fill="#22c55e" opacity="0.9" class="glow-cyan">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
-    </path>
+    <circle cx="320" cy="130" r="3" fill="#6C63FF" class="glow-purple">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="3;1.5;3" dur="2.2s" repeatCount="indefinite" />
+    </circle>
   </g>
 
-  <!-- Title & Description Text Inside Card -->
-  <g transform="translate(25, 110)">
-    <text class="label" x="0" y="0">💼 FULL-TIME ROLE</text>
-    <text class="sub" x="0" y="16">SPRING BOOT • BACKEND DEV</text>
-    <line x1="0" y1="26" x2="230" y2="26" stroke="#30363D" stroke-width="1.5" stroke-linecap="round" />
+  <!-- ==================== TEXT & DETAILS ==================== -->
+  <!-- Tech Stack -->
+  <g transform="translate(190, 325)">
+    <text text-anchor="middle" class="tech">SPRING BOOT • BACKEND DEV</text>
+  </g>
+
+  <!-- Description Body -->
+  <g transform="translate(190, 355)" font-size="12" fill="#8B949E">
+    <text text-anchor="middle" class="desc">Java Developer</text>
+    <text text-anchor="middle" class="desc" y="20">Backend Engineer</text>
+    <text text-anchor="middle" class="desc" y="40">Spring Boot Specialist</text>
   </g>
 </svg>
