@@ -43,7 +43,7 @@
 
     <!-- Middle: Temp and Description -->
     <g transform="translate(100, 0)">
-        <text x="0" y="55" class="temp">35°C</text>
+        <text x="0" y="55" class="temp">34°C</text>
         <text x="0" y="74" class="feels-like">Feels like 33°C</text>
         <text x="0" y="96" class="desc">Clear</text>
     </g>
@@ -52,7 +52,7 @@
     <g transform="translate(255, 0)">
         <text x="0" y="32" class="title">Bhopal, India</text>
         <text x="0" y="48" class="location">Local Time &amp; Date</text>
-        <text x="0" y="68" class="time-label" filter="url(#glow)">12:53 AM IST</text>
+        <text x="0" y="68" class="time-label" filter="url(#glow)">03:28 AM IST</text>
         <text x="0" y="86" class="location" font-size="10">23 May 2026</text>
     </g>
 
@@ -62,6 +62,6 @@
         <text x="0" y="15" class="stat-val">23%</text>
         
         <text x="0" y="35" class="stat-lbl">💨 Wind</text>
-        <text x="0" y="50" class="stat-val">22 km/h</text>
+        <text x="0" y="50" class="stat-val">23 km/h</text>
     </g>
 </svg>
