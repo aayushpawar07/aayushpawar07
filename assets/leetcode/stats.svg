@@ -63,7 +63,7 @@
         <!-- Hard Row -->
         <g transform="translate(0, 62)">
             <text x="0" y="0" class="stat-name" fill="#ef4743">Hard</text>
-            <text x="145" y="0" class="stat-val" text-anchor="end">0<tspan fill="#4B5563">/936</tspan></text>
+            <text x="145" y="0" class="stat-val" text-anchor="end">0<tspan fill="#4B5563">/937</tspan></text>
             <rect x="0" y="6" width="145" height="4" rx="2" fill="#1F2937" />
             <rect x="0" y="6" width="0" height="4" rx="2" fill="#ef4743" />
         </g>
