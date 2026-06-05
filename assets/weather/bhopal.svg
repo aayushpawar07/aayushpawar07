@@ -28,25 +28,26 @@
 
     <!-- Left: Weather Icon -->
     
-        <g transform="translate(45, 60)">
-            <path d="M-12,8 a10,10 0 0,1 10,-10 a12,12 0 0,1 22,2 a8,8 0 0,1 2,16 a8,8 0 0,1 -8,8 l-20,0 a10,10 0 0,1 -6,-16 z" fill="#37474F" fill-opacity="0.4" stroke="#455A64" stroke-width="2" stroke-linejoin="round"/>
-            <polygon points="2,12 -4,22 1,22 -2,30 6,18 1,18" fill="#FFD54F" stroke="#FFCA28" stroke-width="1"/>
+        <g transform="translate(45, 65)" stroke="#B0BEC5" stroke-width="3" stroke-linecap="round" stroke-opacity="0.8">
+            <line x1="-20" y1="-8" x2="20" y2="-8" />
+            <line x1="-25" y1="0" x2="25" y2="0" />
+            <line x1="-15" y1="8" x2="15" y2="8" />
         </g>
         
 
     <!-- Middle: Temp and Description -->
     <g transform="translate(100, 0)">
-        <text x="0" y="55" class="temp">24°C</text>
-        <text x="0" y="74" class="feels-like">Feels like 25°C</text>
-        <text x="0" y="96" class="desc">Light Rain With Thunderstorm</text>
+        <text x="0" y="55" class="temp">26°C</text>
+        <text x="0" y="74" class="feels-like">Feels like 30°C</text>
+        <text x="0" y="96" class="desc">Haze</text>
     </g>
 
     <!-- Right: Stats & Local Info -->
     <g transform="translate(255, 0)">
         <text x="0" y="32" class="title">Bhopal, India</text>
         <text x="0" y="48" class="location">Local Time &amp; Date</text>
-        <text x="0" y="68" class="time-label" filter="url(#glow)">10:37 PM IST</text>
-        <text x="0" y="86" class="location" font-size="10">05 Jun 2026</text>
+        <text x="0" y="68" class="time-label" filter="url(#glow)">01:11 AM IST</text>
+        <text x="0" y="86" class="location" font-size="10">06 Jun 2026</text>
     </g>
 
     <!-- Far Right Statistics -->
@@ -55,6 +56,6 @@
         <text x="0" y="15" class="stat-val">94%</text>
         
         <text x="0" y="35" class="stat-lbl">💨 Wind</text>
-        <text x="0" y="50" class="stat-val">6 km/h</text>
+        <text x="0" y="50" class="stat-val">7 km/h</text>
     </g>
 </svg>
