@@ -55,7 +55,7 @@
         <!-- Medium Row -->
         <g transform="translate(0, 36)">
             <text x="0" y="0" class="stat-name" fill="#ffb700">Medium</text>
-            <text x="145" y="0" class="stat-val" text-anchor="end">82<tspan fill="#4B5563">/2066</tspan></text>
+            <text x="145" y="0" class="stat-val" text-anchor="end">82<tspan fill="#4B5563">/2067</tspan></text>
             <rect x="0" y="6" width="145" height="4" rx="2" fill="#1F2937" />
             <rect x="0" y="6" width="4" height="4" rx="2" fill="#ffb700" />
         </g>
