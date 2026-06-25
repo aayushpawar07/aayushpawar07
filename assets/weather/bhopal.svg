@@ -28,40 +28,32 @@
 
     <!-- Left: Weather Icon -->
     
-        <g transform="translate(45, 60)" stroke="#FFB000" stroke-width="2.5" stroke-linecap="round">
-            <circle cx="0" cy="0" r="14" fill="#FFE082" fill-opacity="0.3" stroke="#FFA000" stroke-width="3"/>
-            <line x1="0" y1="-20" x2="0" y2="-25" />
-            <line x1="0" y1="20" x2="0" y2="25" />
-            <line x1="-20" y1="0" x2="-25" y2="0" />
-            <line x1="20" y1="0" x2="25" y2="0" />
-            <line x1="-14" y1="-14" x2="-18" y2="-18" />
-            <line x1="14" y1="14" x2="18" y2="18" />
-            <line x1="-14" y1="14" x2="-18" y2="18" />
-            <line x1="14" y1="-14" x2="18" y2="-18" />
+        <g transform="translate(45, 60)">
+            <path d="M-12,8 a10,10 0 0,1 10,-10 a12,12 0 0,1 22,2 a8,8 0 0,1 2,16 a8,8 0 0,1 -8,8 l-20,0 a10,10 0 0,1 -6,-16 z" fill="#B0BEC5" fill-opacity="0.4" stroke="#ECEFF1" stroke-width="2" stroke-linejoin="round"/>
         </g>
         
 
     <!-- Middle: Temp and Description -->
     <g transform="translate(100, 0)">
         <text x="0" y="55" class="temp">27°C</text>
-        <text x="0" y="74" class="feels-like">Feels like 27°C</text>
-        <text x="0" y="96" class="desc">Sunny</text>
+        <text x="0" y="74" class="feels-like">Feels like 33°C</text>
+        <text x="0" y="96" class="desc">Partly cloudy</text>
     </g>
 
     <!-- Right: Stats & Local Info -->
     <g transform="translate(255, 0)">
         <text x="0" y="32" class="title">Bhopal, India</text>
         <text x="0" y="48" class="location">Local Time &amp; Date</text>
-        <text x="0" y="68" class="time-label" filter="url(#glow)">07:43 AM IST</text>
+        <text x="0" y="68" class="time-label" filter="url(#glow)">12:10 PM IST</text>
         <text x="0" y="86" class="location" font-size="10">25 Jun 2026</text>
     </g>
 
     <!-- Far Right Statistics -->
     <g transform="translate(370, 48)">
         <text x="0" y="0" class="stat-lbl">💧 Humidity</text>
-        <text x="0" y="15" class="stat-val">68%</text>
+        <text x="0" y="15" class="stat-val">100%</text>
         
         <text x="0" y="35" class="stat-lbl">💨 Wind</text>
-        <text x="0" y="50" class="stat-val">14 km/h</text>
+        <text x="0" y="50" class="stat-val">15 km/h</text>
     </g>
 </svg>
