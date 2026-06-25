@@ -81,7 +81,7 @@
         <g transform="translate(25, 5)">
             <text x="0" y="10" class="title">LeetCode Profile</text>
             <text x="0" y="23" class="rank-lbl">Global Ranking</text>
-            <text x="0" y="38" class="rank" filter="url(#glow)">#329,394</text>
+            <text x="0" y="38" class="rank" filter="url(#glow)">#329,621</text>
             <text x="0" y="52" class="rank-lbl">Submission Streak</text>
             <text x="0" y="67" class="rank" fill="#ffb700" style="font-size:11px;">100 Days Badge 🔥</text>
         </g>
