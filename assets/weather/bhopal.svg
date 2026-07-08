@@ -46,7 +46,7 @@
     <g transform="translate(255, 0)">
         <text x="0" y="32" class="title">Bhopal, India</text>
         <text x="0" y="48" class="location">Local Time &amp; Date</text>
-        <text x="0" y="68" class="time-label" filter="url(#glow)">12:36 AM IST</text>
+        <text x="0" y="68" class="time-label" filter="url(#glow)">03:28 AM IST</text>
         <text x="0" y="86" class="location" font-size="10">09 Jul 2026</text>
     </g>
 
