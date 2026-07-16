@@ -44,14 +44,14 @@
     <g transform="translate(255, 0)">
         <text x="0" y="32" class="title">Bhopal, India</text>
         <text x="0" y="48" class="location">Local Time &amp; Date</text>
-        <text x="0" y="68" class="time-label" filter="url(#glow)">04:18 PM IST</text>
+        <text x="0" y="68" class="time-label" filter="url(#glow)">06:48 PM IST</text>
         <text x="0" y="86" class="location" font-size="10">16 Jul 2026</text>
     </g>
 
     <!-- Far Right Statistics -->
     <g transform="translate(370, 48)">
         <text x="0" y="0" class="stat-lbl">💧 Humidity</text>
-        <text x="0" y="15" class="stat-val">59%</text>
+        <text x="0" y="15" class="stat-val">52%</text>
         
         <text x="0" y="35" class="stat-lbl">💨 Wind</text>
         <text x="0" y="50" class="stat-val">17 km/h</text>
